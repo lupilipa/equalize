@@ -17,7 +17,7 @@
         <a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></br>
         <a class="btn-menu" href="../../home_anonimo.php">Home</a></br>
         <a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="../pedir_ajuda.php">Pedir Ajuda</a></br>
+        <a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></br>
         <a class="btn-menu" href="../../relatos_ver.php">Relatos</a></br>
         <a class="btn-menu" href="../../projeto.php">O projeto</a></br>
         <a class="btn-menu" href="../../contatos.php">Contatos</a></br>
@@ -25,29 +25,15 @@
 
     <section>  
         <h1>Violência Financeira</h1>
-
-1. Você tem controle sobre o seu próprio dinheiro ou salário? (controle)
-   - Sim
-   - Não
-2. Alguém impede você de trabalhar ou tomar decisões financeiras? (impedido)
-   - Sim
-   - Não
-3. Você tem acesso a recursos financeiros básicos (dinheiro, cartão, contas)? (acesso)
-   - Sim
-   - Não
-4. Quem controla suas finanças? (controlador)
-   - Parceiro(a)
-   - Familiar
-   - Outra pessoa
-5. Você já se sentiu obrigado(a) a entregar seu dinheiro para alguém? (coagido)
-   - Sim
-   - Não
-6. Você já procurou ajuda ou orientação financeira? (procurou_ajuda)
-   - Sim
-   - Não
-
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+        <p>O que é? 
+        É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter independência econômica.  
+        Impactos 
+        Dependência financeira do agressor. Dificuldades econômicas e limitações na qualidade de vida. Diminuição da autoestima e aumento da sensação de impotência.  
+        Como identificar? 
+        Relatos de controle excessivo sobre dinheiro e decisões financeiras. Impedimento de acesso ao próprio salário ou a bens pessoais. Pressão para abandonar o emprego ou oportunidades econômicas.  
+        Estratégias de prevenção 
+        Educação financeira para promover a independência econômica. Apoio jurídico para garantir o acesso aos recursos financeiros. Políticas de proteção econômica para vítimas de violência.  
+        </p>
     </section>
     
 </body>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enviar meu relato - Equalize</title>
+    <title>Relatos - Equalize</title>
     <link rel="icon" href="../../media/logo.png" type="image/png">
     <link rel="stylesheet" href="../../css/style.css">
 
@@ -24,7 +24,8 @@
     </nav>
 
     <section>
-        <h1>Enviar meu relato</h1>
+        <h1>Relatos</h1>
+        <a class="btn-menu" href="relatos_relatar.php">Enviar meu relato</a></br>
     </section>
     
 </body>

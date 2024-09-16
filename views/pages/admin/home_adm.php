@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajuda - Equalize</title>
+    <title>Home - Equalize</title>
     <link rel="icon" href="../../media/logo.png" type="image/png">
     <link rel="stylesheet" href="../../css/style.css">
 
@@ -19,10 +19,6 @@
         <a class="btn-menu" href="ajuda_adm.php">Ajuda: ADM</a></br>
         <a class="btn-menu" href="relatos_adm.php">Relatos: ADM</a></br>
     </nav>
-    
-    <section>
-        <h1>Ajuda: ADM</h1>
-    </section>
     
 </body>
 

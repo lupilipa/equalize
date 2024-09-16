@@ -14,9 +14,10 @@
 <body>
 
     <nav>
-        <a class="btn-menu" href="../../../autenticacao/login.php">Login</a></br>
+        <a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></br>
+        <a class="btn-menu" href="../../home_anonimo.php">Home</a></br>
         <a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></br>
+        <a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></br>
         <a class="btn-menu" href="../../relatos_ver.php">Relatos</a></br>
         <a class="btn-menu" href="../../projeto.php">O projeto</a></br>
         <a class="btn-menu" href="../../contatos.php">Contatos</a></br>

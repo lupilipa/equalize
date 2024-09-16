@@ -17,7 +17,7 @@
         <a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></br>
         <a class="btn-menu" href="../../home_anonimo.php">Home</a></br>
         <a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="../pedir_ajuda.php">Pedir Ajuda</a></br>
+        <a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></br>
         <a class="btn-menu" href="../../relatos_ver.php">Relatos</a></br>
         <a class="btn-menu" href="../../projeto.php">O projeto</a></br>
         <a class="btn-menu" href="../../contatos.php">Contatos</a></br>
@@ -25,30 +25,15 @@
 
     <section>  
         <h1>Violência Moral</h1>
-
-1. Você já foi alvo de difamação, calúnia ou injúria? (difamado)
-   - Sim
-   - Não
-2. Essas ações afetaram sua reputação ou imagem pública? (afetou_imagem)
-   - Sim
-   - Não
-3. Quem é o responsável por essas ações? (agressor)
-   - Parceiro(a)
-   - Familiar
-   - Colega de trabalho
-   - Outra pessoa
-4. Você já sofreu algum tipo de perseguição moral ou pública? (perseguido)
-   - Sim
-   - Não
-5. Você procurou ajuda jurídica ou relatou esses casos? (procurou_ajuda)
-   - Sim
-   - Não
-6. Esses atos continuam acontecendo atualmente? (continua)
-   - Sim
-   - Não
-
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+        <p>O que é? 
+        Consiste em calúnia, difamação, injúria, ou qualquer ato que ofenda a honra ou a dignidade de uma pessoa.  
+        Impactos 
+        Dano à reputação e à imagem social. Estresse emocional e possíveis complicações legais. Isolamento social e danos à autoestima.  
+        Como identificar? 
+        Relatos de disseminação de falsas informações ou ofensas. Percepção de perseguição ou desmoralização pública. Efeitos no bem-estar emocional e social da vítima.  
+        Estratégias de prevenção 
+        Educação sobre ética e respeito nas relações interpessoais. Ações legais para proteger contra calúnia e difamação. Campanhas de conscientização sobre o respeito à dignidade humana.  
+        </p>
     </section>
     
 </body>
