@@ -5,6 +5,7 @@
     --cor-bg-header: #cc70cc;
     --cor-bg-nav: #b362b3;
     --cor-bg-nav-item-hover: #aa60aa;
+    --cor-bg-nav-sub: #aa63aa;
     --cor-bg-h1-header: #0000006e;
     --cor-bg-main: #f9fdff;
     --cor-bg-fade: #0000008a; 
@@ -124,15 +125,34 @@ header nav ul {
 header nav li {
     display: flex;
     align-items: center;
-    height: 60px;
+    min-height: 60px;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 40px;
     list-style: none;
     cursor: pointer;
+    transition: .5s;
 }
 
 header nav li:hover {
     background: var(--cor-bg-nav-item-hover);
+}
+
+header nav li.sub-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header nav .sub-menu-link {
+    display: none;
+    background: var(--cor-bg-nav-sub);
+}
+
+header nav .sub-menu:hover .sub-menu-link,
+header nav .sub-menu-link li:hover .sub-menu-link {
+    display: block;
+    width: calc(100% - 10px);
+    margin-left: 20px;
 }
 
 header nav a {
@@ -143,10 +163,6 @@ header nav a {
     height: 100%;
     color: var(--cor-branco);
     text-decoration: none;
-}
-
-header nav ul {
-    margin: 0;
 }
 
 header .titulo {
