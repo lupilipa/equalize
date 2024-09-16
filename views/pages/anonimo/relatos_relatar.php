@@ -24,7 +24,19 @@
     </nav>
 
     <section>
-        <h1>Enviar meu relato</h1>
+        <div class="titulo">
+            <h1>Enviar meu relato</h1>
+        </div>
+        <div class="form">
+            <form action="../../../logica/controllers/ControllerRelatos.php" method="post">
+                <div class="input">
+                    <input type="text" placeholder="Relato" name="relato" required>
+                </div>
+                <div class="button">
+                    <button type="submit" value="enviar_relato" name="enviar_relato">Enviar</button>
+                </div>
+            </form>
+        </div>
     </section>
     
 </body>
