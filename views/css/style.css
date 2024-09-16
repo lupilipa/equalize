@@ -130,29 +130,11 @@ header nav li {
     padding-left: 40px;
     list-style: none;
     cursor: pointer;
-    transition: .5s;
+    transition: all .5s ease;
 }
 
 header nav li:hover {
     background: var(--cor-bg-nav-item-hover);
-}
-
-header nav li.sub-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-header nav .sub-menu-link {
-    display: none;
-    background: var(--cor-bg-nav-sub);
-}
-
-header nav .sub-menu:hover .sub-menu-link,
-header nav .sub-menu-link li:hover .sub-menu-link {
-    display: block;
-    width: calc(100% - 10px);
-    margin-left: 20px;
 }
 
 header nav a {

@@ -22,15 +22,8 @@
                 <li>
                     <a href="#">Link</a>
                 </li>
-                <li class="sub-menu">
+                <li>
                     <a href="#">Link</a>
-                    <div class="sub-menu-link">
-                        <ul>
-                            <li><a href="#">Link do sub-menu 1</a></li>
-                            <li><a href="#">Link do sub-menu 2</a></li>
-                            <li><a href="#">Link do sub-menu 3</a></li>
-                        </ul>
-                    </div>
                 </li>
                 <li>
                     <a href="#">Link</a>
