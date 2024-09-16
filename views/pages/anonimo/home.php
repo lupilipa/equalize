@@ -48,6 +48,35 @@
             <h2>Home</h2>
         </div>
     </header>
+    <footer>
+        <div class="copyright">
+            <p>&copy; Desenvolvido por Luana e Ramon.</p>
+        </div>
+        <div class="escola">
+            <p>E.E.E.P Salaberga Torquarto Gomes de Matos</p>
+        </div>
+        <div class="links">
+            <div class="paginas">
+                <ul>
+                    <li>
+                        <a href="#">Como Identificar?</a>
+                    </li>
+                    <li>
+                        <a href="#">Pedir Ajuda</a>
+                    </li>
+                    <li>
+                        <a href="#">Ver Relatos</a>
+                    </li>
+                    <li>
+                        <a href="#">O Projeto</a>
+                    </li>
+                    <li>
+                        <a href="#">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="../../js/fade.js"></script>
 </body>
 

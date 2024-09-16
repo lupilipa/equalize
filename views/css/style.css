@@ -11,6 +11,7 @@
     --cor-bg-fade: #0000008a; 
     --cor-branco: white;
     --cor-preto: black;
+    --cor-bg-footer: #231123;
 }
 
 * {
@@ -168,4 +169,36 @@ main .titulo-pagina h2 {
     margin: 0;
     font-weight: bold;
     unicode-bidi: isolate;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background: var(--cor-bg-footer);
+    text-align: center;
+    color: var(--cor-branco);
+}
+
+footer h2 {
+    font-size: 1.15rem;
+}
+
+footer .paginas ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    border-top: 1px solid var(--cor-branco);
+    list-style-type: none;
+    cursor: pointer;
+}
+
+footer .paginas ul li {
+    padding: 5px;
+}
+
+footer .paginas a {
+    text-decoration: none;
+    color: var(--cor-branco);
 }
