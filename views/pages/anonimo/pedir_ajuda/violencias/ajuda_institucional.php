@@ -24,32 +24,67 @@
     </nav>
 
     <section>  
-        <h1>Violência Institucional</h1>
+      <div class="titulo">
+         <h1>Violência Institucional</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="discriminado">Você já sofreu discriminação ou tratamento abusivo em algum serviço público ou privado?</label></br>
+                  <select id="discriminado" name="discriminado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-1. Você já sofreu discriminação ou tratamento abusivo em algum serviço público ou privado? (discriminado)
-   - Sim
-   - Não
-2. Em qual tipo de instituição isso ocorreu? (instituicao)
-   - Hospital
-   - Escola
-   - Serviço Público
-   - Outro
-3. Você foi negligenciado(a) ou teve direitos negados? (negligenciado)
-   - Sim
-   - Não
-4. Você já fez uma denúncia sobre esse tratamento? (ja_denunciou)
-   - Sim
-   - Não
-5. Essas situações afetaram seu acesso a serviços ou direitos básicos? (afetou_acesso)
-   - Sim
-   - Não
-6. Como você descreveria sua confiança nas instituições atualmente? (confianca)
-   - Alta
-   - Média
-   - Baixa
-
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="instituicao">Em qual tipo de instituição isso ocorreu?</label></br>
+                  <select id="instituicao" name="instituicao">
+                        <option value="hospital">Hospital</option>
+                        <option value="escola">Escola</option>
+                        <option value="serviço_pub">Serviço Público</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="negligenciado">Você foi negligenciado(a) ou teve direitos negados?</label></br>
+                  <select id="negligenciado" name="negligenciado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="ja_denunciou">Você já fez uma denúncia sobre esse tratamento?</label></br>
+                  <select id="ja_denunciou" name="ja_denunciou">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="afetou_acesso">Essas situações afetaram seu acesso a serviços ou direitos básicos? </label></br>
+                  <select id="afetou_acesso" name="afetou_acesso">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="confianca">Como você descreveria sua confiança nas instituições atualmente?</label></br>
+                  <select id="confianca" name="confianca">
+                        <option value="alta">Alta</option>
+                        <option value="media">Média</option>
+                        <option value="baixa">Baixa</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_insti" name="ajuda_insti">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>

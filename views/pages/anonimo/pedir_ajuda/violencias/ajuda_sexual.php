@@ -24,31 +24,66 @@
     </nav>
 
     <section>  
-        <h1>Violência Sexual</h1>
+      <div class="titulo">
+         <h1>Violência Sexual</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="forcado">Você já foi forçado(a) a ter contato sexual contra sua vontade?</label></br>
+                  <select id="forcado" name="forcado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-1. Você já foi forçado(a) a ter contato sexual contra sua vontade? (forcado)
-   - Sim
-   - Não
-2. Você já foi tocado(a) de forma inapropriada sem o seu consentimento? (tocado)
-   - Sim
-   - Não
-3. Você se sente seguro(a) em sua vida sexual e íntima? (seguro)
-   - Sim
-   - Não
-4. Quem cometeu esse ato contra você? (agressor)
-   - Parceiro(a)
-   - Familiar
-   - Estranho
-   - Outra pessoa
-5. Você procurou ajuda ou denunciou esse comportamento? (procurou_ajuda)
-   - Sim
-   - Não
-6. Você tem medo de que isso aconteça novamente? (medo)
-   - Sim
-   - Não
+               <div class="input">
+                  <label for="tocado">Você já foi tocado(a) de forma inapropriada sem o seu consentimento? </label></br>
+                  <select id="tocado" name="tocado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="seguro">Você se sente seguro(a) em sua vida sexual e íntima?</label></br>
+                  <select id="seguro" name="seguro">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="agressor">Quem cometeu esse ato contra você?</label></br>
+                  <select id="agressor" name="agressor">
+                        <option value="parceiro">Parceiro</option>
+                        <option value="familiar">Familiar</option>
+                        <option value="colega">Colega de Trabalho</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="procurou_ajuda">Você procurou ajuda ou denunciou esse comportamento?</label></br>
+                  <select id="procurou_ajuda" name="procurou_ajuda">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="medo">Você tem medo de que isso aconteça novamente?</label></br>
+                  <select id="medo" name="medo">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_sexual" name="ajuda_sexual">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>

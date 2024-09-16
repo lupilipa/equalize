@@ -24,31 +24,66 @@
     </nav>
 
     <section>  
-        <h1>Violência Psicológica</h1>
+      <div class="titulo">
+         <h1>Violência Psicológica</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="manipulado">Você sente que alguém constantemente tenta te humilhar, intimidar ou manipular?</label></br>
+                  <select id="manipulado" name="manipulado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-1. Você sente que alguém constantemente tenta te humilhar, intimidar ou manipular? (manipulado)
-   - Sim
-   - Não
-2. Você é frequentemente isolado(a) de amigos ou familiares? (isolado)
-   - Sim
-   - Não
-3. Você já foi ameaçado(a) de alguma forma (perda de algo importante, abandono, etc.)? (ameacado)
-   - Sim
-   - Não
-4. Quem é a pessoa que comete esses atos contra você? (agressor)
-   - Parceiro(a)
-   - Familiar
-   - Colega de trabalho
-   - Outra pessoa
-5. Esses comportamentos fazem você se sentir ansioso(a) ou deprimido(a)? (depressao)
-   - Sim
-   - Não
-6. Você já procurou ajuda psicológica ou apoio emocional para lidar com isso? (procurou_ajuda)
-   - Sim
-   - Não
+               <div class="input">
+                  <label for="isolado">Você é frequentemente isolado(a) de amigos ou familiares?</label></br>
+                  <select id="isolado" name="isolado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="ameacado">Você já foi ameaçado(a) de alguma forma (perda de algo importante, abandono, etc.)?</label></br>
+                  <select id="ameacado" name="ameacado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="agressor">Quem é a pessoa que comete esses atos contra você?</label></br>
+                  <select id="agressor" name="agressor">
+                        <option value="parceiro">Parceiro</option>
+                        <option value="familiar">Familiar</option>
+                        <option value="colega">Colega de Trabalho</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="depressao">Esses comportamentos fazem você se sentir ansioso(a) ou deprimido(a)?</label></br>
+                  <select id="depressao" name="depressao">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="procurou_ajuda">Você já procurou ajuda psicológica ou apoio emocional para lidar com isso? </label></br>
+                  <select id="procurou_ajuda" name="procurou_ajuda">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_psicologica" name="ajuda_psicologica">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>

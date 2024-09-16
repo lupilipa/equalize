@@ -24,31 +24,66 @@
     </nav>
 
     <section>  
-        <h1>Violência Moral</h1>
+      <div class="titulo">
+         <h1>Violência Moral</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="difamado">Você já foi alvo de difamação, calúnia ou injúria?</label></br>
+                  <select id="difamado" name="difamado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-1. Você já foi alvo de difamação, calúnia ou injúria? (difamado)
-   - Sim
-   - Não
-2. Essas ações afetaram sua reputação ou imagem pública? (afetou_imagem)
-   - Sim
-   - Não
-3. Quem é o responsável por essas ações? (agressor)
-   - Parceiro(a)
-   - Familiar
-   - Colega de trabalho
-   - Outra pessoa
-4. Você já sofreu algum tipo de perseguição moral ou pública? (perseguido)
-   - Sim
-   - Não
-5. Você procurou ajuda jurídica ou relatou esses casos? (procurou_ajuda)
-   - Sim
-   - Não
-6. Esses atos continuam acontecendo atualmente? (continua)
-   - Sim
-   - Não
+               <div class="input">
+                  <label for="afetou_imagem">Essas ações afetaram sua reputação ou imagem pública?</label></br>
+                  <select id="afetou_imagem" name="afetou_imagem">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="agressor">Quem é o responsável por essas ações?</label></br>
+                  <select id="agressor" name="agressor">
+                        <option value="parceiro">Parceiro</option>
+                        <option value="familiar">Familiar</option>
+                        <option value="colega">Colega de Trabalho</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="perseguido">Você já sofreu algum tipo de perseguição moral ou pública?</label></br>
+                  <select id="perseguido" name="perseguido">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="procurou_ajuda">Você procurou ajuda jurídica ou relatou esses casos?</label></br>
+                  <select id="procurou_ajuda" name="procurou_ajuda">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="continua">Esses atos continuam acontecendo atualmente?</label></br>
+                  <select id="continua" name="continua">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_moral" name="ajuda_moral">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>
