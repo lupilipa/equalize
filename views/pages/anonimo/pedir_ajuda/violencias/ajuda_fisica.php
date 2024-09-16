@@ -24,34 +24,69 @@
     </nav>
 
     <section>  
-        <h1>Violência Física</h1>
-        
-1. Você já sofreu agressões físicas (socos, chutes, tapas, empurrões)? (agressoes)
-   - Sim
-   - Não
-2. Com que frequência ocorrem essas agressões? (frequencia)
-   - Diariamente
-   - Semanalmente
-   - Mensalmente
-   - Ocasionalmente
-3. Você já precisou de atendimento médico devido a essas agressões? (atend_medico)
-   - Sim
-   - Não
-4. Quem é o agressor? (agressor)
-   - Parceiro(a)
-   - Familiar
-   - Colega de trabalho
-   - Outra pessoa
-5. Você já relatou essas agressões para alguém? (relatado)
-   - Sim
-   - Não
-6. Como você se sente em relação à sua segurança atualmente? (seguranca)
-   - Seguro(a)
-   - Inseguro(a)
-   - Muito inseguro(a)
+      <div class="titulo">
+         <h1>Violência Física</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="agressoes">Você já sofreu agressões físicas (socos, chutes, tapas, empurrões)?</label></br>
+                  <select id="agressoes" name="agressoes">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="frequencia">Com que frequência ocorrem essas agressões?</label></br>
+                  <select id="frequencia" name="frequencia">
+                        <option value="diariamente">Diariamente</option>
+                        <option value="semanalmente">Semanalmente</option>
+                        <option value="mensalmente">Mensalmente</option>
+                        <option value="ocasionalmente">Ocasionalmente</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="atend_medico">Você já precisou de atendimento médico devido a essas agressões?</label></br>
+                  <select id="atend_medico" name="atend_medico">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="agressor">Quem é o agressor?</label></br>
+                  <select id="agressor" name="agressor">
+                        <option value="parceiro">Parceiro</option>
+                        <option value="familiar">Familiar</option>
+                        <option value="colega">Colega de Trabalho</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="relatado">Você já relatou essas agressões para alguém?</label></br>
+                  <select id="relatado" name="relatado">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="seguranca">Como você se sente em relação à sua segurança atualmente?</label></br>
+                  <select id="seguranca" name="seguranca">
+                        <option value="seguro">Seguro</option>
+                        <option value="inseguro">Inseguro</option>
+                        <option value="muito_inseguro">Muito inseguro</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_fisica" name="ajuda_fisica">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>

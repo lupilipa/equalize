@@ -24,30 +24,65 @@
     </nav>
 
     <section>  
-        <h1>Violência Financeira</h1>
+      <div class="titulo">
+         <h1>Violência Financeira</h1>
+      </div>
+      <div class="form">
+         <form action="../../../../../logica/controllers/ControllerAjuda.php" method="post">
+               <div class="input">
+                  <label for="controle">Você tem controle sobre o seu próprio dinheiro ou salário?</label></br>
+                  <select id="controle" name="controle">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
 
-1. Você tem controle sobre o seu próprio dinheiro ou salário? (controle)
-   - Sim
-   - Não
-2. Alguém impede você de trabalhar ou tomar decisões financeiras? (impedido)
-   - Sim
-   - Não
-3. Você tem acesso a recursos financeiros básicos (dinheiro, cartão, contas)? (acesso)
-   - Sim
-   - Não
-4. Quem controla suas finanças? (controlador)
-   - Parceiro(a)
-   - Familiar
-   - Outra pessoa
-5. Você já se sentiu obrigado(a) a entregar seu dinheiro para alguém? (coagido)
-   - Sim
-   - Não
-6. Você já procurou ajuda ou orientação financeira? (procurou_ajuda)
-   - Sim
-   - Não
-
-        <a class="btn-menu" href="../resultado/ajuda_imediata.php">Ajuda imediata</a></br>
-        <a class="btn-menu" href="../resultado/somente_informar.php">Quero me informar</a></br>
+               <div class="input">
+                  <label for="impedido">Alguém impede você de trabalhar ou tomar decisões financeiras?</label></br>
+                  <select id="impedido" name="impedido">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="acesso">Você tem acesso a recursos financeiros básicos (dinheiro, cartão, contas)?</label></br>
+                  <select id="acesso" name="acesso">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="controlador">Quem controla suas finanças?</label></br>
+                  <select id="controlador" name="controlador">
+                        <option value="parceiro">Parceiro</option>
+                        <option value="familiar">Familiar</option>
+                        <option value="outro">Outro</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="coagido">Você já se sentiu obrigado(a) a entregar seu dinheiro para alguém?</label></br>
+                  <select id="coagido" name="coagido">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="input">
+                  <label for="procurou_ajuda">Você já procurou ajuda ou orientação financeira?</label></br>
+                  <select id="procurou_ajuda" name="procurou_ajuda">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                  </select>
+               </div></br>
+               
+               <div class="button">
+                  <button type="submit" value="ajuda_financeira" name="ajuda_financeira">Enviar</button>
+               </div>
+         </form>
+      </div>
     </section>
     
 </body>
