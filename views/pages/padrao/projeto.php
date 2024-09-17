@@ -13,14 +13,26 @@
 
 <body>
 
-    <nav>
-        <a class="btn-menu" href="../autenticacao/login.php">Login</a></br>
-        <a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></br>
-        <a class="btn-menu" href="relatos_ver.php">Relatos</a></br>
-        <a class="btn-menu" href="projeto.php">O projeto</a></br>
-        <a class="btn-menu" href="contatos.php">Contatos</a></br>
-    </nav>
+    <header>
+        <input type="checkbox" name="menuHamb" id="menuHambId" style="display:none;">
+        <div class="container">
+            <label for="menuHambId"><div class="hamburger"></div></label>
+        </div>
+        <nav id="menu-links">
+            <ul>
+                <li><a class="btn-menu" href="../autenticacao/login.php">Login</a></li>
+                <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
+                <li><a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
+                <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
+                <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
+            </ul>
+        </nav>
+        <div class="fade"></div>
+        <div class="titulo">
+            <h1>Equalize</h1>
+        </div>
+    </header>
 
     <section>
         <h1>O Projeto</h1>
@@ -34,6 +46,27 @@
         O projeto Equalize é fundamentado em diversas teorias que abordam a violência de gênero como um fenômeno complexo. A teoria feminista aponta a violência como uma ferramenta para manter a desigualdade de gênero, enquanto Judith Butler destaca o papel da sociedade na construção de normas de gênero que perpetuam comportamentos violentos. A teoria da interseccionalidade de Kimberlé Crenshaw enfatiza como múltiplas formas de opressão se intersectam, criando experiências únicas de violência. Além disso, a teoria do ciclo da violência de Lenore Walker e a teoria da aprendizagem social de Albert Bandura destacam a necessidade de intervenções educativas para quebrar padrões de violência e ensinar comportamentos saudáveis. A abordagem do projeto também se apoia na teoria da difusão de inovações de Everett Rogers, utilizando a tecnologia para alcançar e impactar positivamente a comunidade escolar. Combinando esses fundamentos teóricos, o Equalize visa transformar o ambiente escolar em um espaço seguro, inclusivo e informativo, promovendo mudanças culturais necessárias para erradicar a violência de gênero.
         </p>
     </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; Desenvolvido por Luana e Ramon.</p></div>
+        <div class="escola">
+            <p>E.E.E.P Salaberga Torquarto Gomes de Matos</p></div>
+        <div class="links">
+            <div class="paginas">
+                <ul>
+                    <li><a class="btn-menu" href="../autenticacao/login.php">Login</a></li>
+                    <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
+                    <li><a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
+                    <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
+                    <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/fade.js"></script>
     
 </body>
 

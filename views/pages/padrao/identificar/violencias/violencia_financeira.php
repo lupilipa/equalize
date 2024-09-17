@@ -13,14 +13,26 @@
 
 <body>
 
-    <nav>
-        <a class="btn-menu" href="../../../autenticacao/login.php">Login</a></br>
-        <a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></br>
-        <a class="btn-menu" href="../../relatos_ver.php">Relatos</a></br>
-        <a class="btn-menu" href="../../projeto.php">O projeto</a></br>
-        <a class="btn-menu" href="../../contatos.php">Contatos</a></br>
-    </nav>
+    <header>
+        <input type="checkbox" name="menuHamb" id="menuHambId" style="display:none;">
+        <div class="container">
+            <label for="menuHambId"><div class="hamburger"></div></label>
+        </div>
+        <nav id="menu-links">
+            <ul>
+                <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
+                <li><a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></li>
+                <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
+                <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
+                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>  
+            </ul>
+        </nav>
+        <div class="fade"></div>
+        <div class="titulo">
+            <h1>Equalize</h1>
+        </div>
+    </header>
 
     <section>  
         <h1>Violência Financeira</h1>
@@ -34,6 +46,27 @@
         Educação financeira para promover a independência econômica. Apoio jurídico para garantir o acesso aos recursos financeiros. Políticas de proteção econômica para vítimas de violência.  
         </p>
     </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; Desenvolvido por Luana e Ramon.</p></div>
+        <div class="escola">
+            <p>E.E.E.P Salaberga Torquarto Gomes de Matos</p></div>
+        <div class="links">
+            <div class="paginas">
+                <ul>
+                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
+                    <li><a class="btn-menu" href="../como_identificar.php">Como identificar?</a></li>
+                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
+                    <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
+                    <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/fade.js"></script>
     
 </body>
 

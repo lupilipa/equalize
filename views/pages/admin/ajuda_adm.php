@@ -30,7 +30,6 @@
         <div class="fade"></div>
         <div class="titulo">
             <h1>Equalize</h1>
-            <h2>Home</h2>
         </div>
     </header>
     
