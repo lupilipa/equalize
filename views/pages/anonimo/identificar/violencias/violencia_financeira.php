@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Violência Financeira - Equalize</title>
-    <link rel="icon" href="../../../../media/logo.png" type="image/png">
+    <link rel="icon" href="../../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/style.css">
 
 </head>
