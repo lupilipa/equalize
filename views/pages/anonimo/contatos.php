@@ -20,9 +20,10 @@
         </div>
         <nav id="menu-links">
             <ul>
-                <li><a class="btn-menu" href="../autenticacao/login.php">Login</a></li>
+                <li><a class="btn-sair" href="../../../logica/controllers/ControllerLogin.php?logout">Sair</a></li>
+                <li><a class="btn-menu" href="home_anonimo.php">Home</a></li>
                 <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
-                <li><a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
                 <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
                 <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
@@ -67,9 +68,8 @@
         <div class="links">
             <div class="paginas">
                 <ul>
-                    <li><a class="btn-menu" href="../autenticacao/login.php">Login</a></li>
                     <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
-                    <li><a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                     <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
                     <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
                     <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
@@ -78,7 +78,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../js/fade.js"></script>
     
 </body>
 

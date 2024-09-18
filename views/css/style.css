@@ -12,6 +12,12 @@
     --cor-branco: white;
     --cor-preto: black;
     --cor-bg-footer: #231123;
+    --roxo-escuro: #231123;
+    --roxo-claro: #82204A;
+    --verde: #8EA604;
+    --laranja: #FF9F1C;
+    --rosa-claro: #EBD6EB;
+    --background: #F8F1F8;
 }
 
 * {
@@ -169,6 +175,14 @@ main .titulo-pagina h2 {
     margin: 0;
     font-weight: bold;
     unicode-bidi: isolate;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--background);
+    width: 100%;
 }
 
 footer {

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--background);
+  width: 100%;
+  overflow: hidden;
+}
+
+:root {
+    --roxo-escuro: #231123;
+    --roxo-claro: #82204A;
+    --verde: #8EA604;
+    --laranja: #FF9F1C;
+    --rosa-claro: #EBD6EB;
+    --background: #F8F1F8;
+}
+
+.paleta { color: rgb(35, 17, 35); }
+.paleta { color: rgb(130, 32, 74); }
+.paleta { color: rgb(142, 166, 4); }
+.paleta { color: rgb(255, 159, 28); }
+.paleta { color: rgb(235, 214, 235); }
+.paleta { color: rgb(248, 241, 248); }
+
+.paleta { color: hsl(300, 35%, 10%); }
+.paleta { color: hsl(334, 60%, 32%); }
+.paleta { color: hsl(69, 95%, 33%); }
+.paleta { color: hsl(35, 100%, 55%); }
+.paleta { color: hsl(300, 34%, 88%); }
+.paleta { color: hsl(300, 33%, 96%); }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajuda - Equalize</title>
+    <title>Home - Equalize</title>
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
@@ -30,11 +30,14 @@
         <div class="fade"></div>
         <div class="titulo">
             <h1>Equalize</h1>
+            <h2>Home</h2>
         </div>
     </header>
     
     <section>
-        <h1>Ajuda: ADM</h1>
+        <a class="btn-menu" href="home_adm.php">Home</a></br>
+        <a class="btn-menu" href="ajuda_adm.php">Ajuda: ADM</a></br>
+        <a class="btn-menu" href="relatos_adm.php">Relatos: ADM</a></br>
     </section>
 
     <footer>

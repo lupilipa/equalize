@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violência Verbal - Equalize</title>
+    <title>Violência Digital - Equalize</title>
     <link rel="icon" href="../../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/style.css">
 
@@ -20,12 +20,13 @@
         </div>
         <nav id="menu-links">
             <ul>
-                <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
+                <li><a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></li>
+                <li><a class="btn-menu" href="../../home_anonimo.php">Home</a></li>
                 <li><a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></li>
-                <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                 <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
-                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>  
+                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
             </ul>
         </nav>
         <div class="fade"></div>
@@ -35,15 +36,15 @@
     </header>
 
     <section>  
-        <h1>Violência Verbal</h1>
+        <h1>Violência Digital</h1>
         <p>O que é? 
-        Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.  
+        Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e assédio online.  
         Impactos 
-        Baixa autoestima e insegurança. Desenvolvimento de problemas de saúde mental como ansiedade e depressão. Dificuldades em relacionamentos interpessoais.  
+        Ansiedade, depressão e estresse devido à exposição ou assédio. Dano à reputação pessoal e profissional. Sentimento de insegurança no uso de tecnologias.  
         Como identificar? 
-        Relatos de insultos frequentes, ameaças ou humilhação. Mudanças comportamentais como retraimento ou agressividade. Presença de um ambiente de comunicação hostil.  
+        Relatos de ameaças, humilhações, ou exposição de informações pessoais online. Presença de comportamentos agressivos e invasivos nas redes sociais. Medo ou relutância em usar dispositivos digitais.  
         Estratégias de prevenção 
-        Promoção de habilidades de comunicação não violenta. Intervenções educativas sobre o impacto da violência verbal. Campanhas de conscientização para mudança de comportamento. 
+        Educação digital sobre segurança e privacidade online. Implementação de leis contra crimes cibernéticos e assédio digital. Criação de espaços seguros online e suporte para vítimas de violência digital.  
         </p>
     </section>
 
@@ -55,9 +56,8 @@
         <div class="links">
             <div class="paginas">
                 <ul>
-                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
                     <li><a class="btn-menu" href="../como_identificar.php">Como identificar?</a></li>
-                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                     <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                     <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
                     <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
@@ -66,7 +66,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../js/fade.js"></script>
     
 </body>
 

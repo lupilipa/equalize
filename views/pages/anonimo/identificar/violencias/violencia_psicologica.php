@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violência Verbal - Equalize</title>
+    <title>Violência Psicológica - Equalize</title>
     <link rel="icon" href="../../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../../css/style.css">
 
@@ -20,12 +20,13 @@
         </div>
         <nav id="menu-links">
             <ul>
-                <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
+                <li><a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></li>
+                <li><a class="btn-menu" href="../../home_anonimo.php">Home</a></li>
                 <li><a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></li>
-                <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                 <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
-                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>  
+                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
             </ul>
         </nav>
         <div class="fade"></div>
@@ -35,15 +36,15 @@
     </header>
 
     <section>  
-        <h1>Violência Verbal</h1>
+        <h1>Violência Psicológica</h1>
         <p>O que é? 
-        Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.  
+        É uma forma de abuso que visa causar dano emocional ou psicológico, como humilhação, manipulação, intimidação, chantagem, e isolamento.  
         Impactos 
-        Baixa autoestima e insegurança. Desenvolvimento de problemas de saúde mental como ansiedade e depressão. Dificuldades em relacionamentos interpessoais.  
+        Baixa autoestima, depressão e ansiedade. Dificuldade em manter relacionamentos saudáveis. Traumas psicológicos duradouros.  
         Como identificar? 
-        Relatos de insultos frequentes, ameaças ou humilhação. Mudanças comportamentais como retraimento ou agressividade. Presença de um ambiente de comunicação hostil.  
+        Mudança no comportamento ou no humor, como tristeza constante ou medo. Relatos de abuso verbal, controle excessivo ou isolamento. Diminuição da confiança em si mesmo ou dos outros.  
         Estratégias de prevenção 
-        Promoção de habilidades de comunicação não violenta. Intervenções educativas sobre o impacto da violência verbal. Campanhas de conscientização para mudança de comportamento. 
+        Promover o autocuidado e a saúde mental. Oferecer suporte emocional e psicológico às vítimas. Implementação de programas de conscientização sobre a violência emocional.  
         </p>
     </section>
 
@@ -55,9 +56,8 @@
         <div class="links">
             <div class="paginas">
                 <ul>
-                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
                     <li><a class="btn-menu" href="../como_identificar.php">Como identificar?</a></li>
-                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
                     <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                     <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
                     <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
@@ -66,7 +66,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../js/fade.js"></script>
     
 </body>
 
