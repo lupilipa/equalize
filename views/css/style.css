@@ -161,13 +161,19 @@ header .titulo {
     color: var(--cor-branco);
 }
 
-header .titulo h1 {
+header .titulo h1,
+.titulo h1,
+header .titulo p {
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
     font-weight: bold;
     unicode-bidi: isolate;
 }
+
+header .titulo p {
+    font-size: 2em;
+} 
 
 header .titulo-pagina h2,
 main .titulo-pagina h2 {
@@ -177,12 +183,23 @@ main .titulo-pagina h2 {
     unicode-bidi: isolate;
 }
 
-section {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: var(--background);
-    width: 100%;
+main {
+    padding: 10px;
+}
+
+main article h2 {
+    margin-top: 15px;
+} 
+
+main article h3 {
+    margin-top: 7px;
+}
+
+main article blockquote {
+    margin: 7px 0;
+    padding-left: 10px;
+    border-left: 4px solid var(--roxo-claro);
+    font-style: italic;
 }
 
 footer {
