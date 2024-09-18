@@ -31,14 +31,16 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>
-        <h1>Relatos</h1>
+    <main>
+        <titulo>
+            <h1>Relatos</h1>
+        </titulo>
         <a class="btn-menu" href="relatos_relatar.php">Enviar meu relato</a></br>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

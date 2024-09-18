@@ -31,12 +31,16 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>
-        <h1>O Projeto</h1>
+    <main>
+        <article>
+            <div class="titulo">
+                <h1>O Projeto</h1>
+            </div>
+        </article>
         <p>Resumo do projeto
         O projeto Equalize: Quebrando o Ciclo da Violência de Gênero é uma plataforma digital interativa que visa combater a violência de gênero por meio de educação, suporte e conscientização. Desenvolvido com tecnologias modernas como HTML, CSS, PHP e JavaScript, o site oferece informações, ferramentas educativas e apoio para vítimas de violência de gênero. O objetivo é promover uma mudança cultural significativa, erradicando práticas violentas e desiguais enquanto engaja a comunidade em ações preventivas e educativas. Além de informar, o Equalize proporciona um espaço seguro para relatos e suporte relacionado à violência de gênero.
 
@@ -46,7 +50,7 @@
         Base Teórica
         O projeto Equalize é fundamentado em diversas teorias que abordam a violência de gênero como um fenômeno complexo. A teoria feminista aponta a violência como uma ferramenta para manter a desigualdade de gênero, enquanto Judith Butler destaca o papel da sociedade na construção de normas de gênero que perpetuam comportamentos violentos. A teoria da interseccionalidade de Kimberlé Crenshaw enfatiza como múltiplas formas de opressão se intersectam, criando experiências únicas de violência. Além disso, a teoria do ciclo da violência de Lenore Walker e a teoria da aprendizagem social de Albert Bandura destacam a necessidade de intervenções educativas para quebrar padrões de violência e ensinar comportamentos saudáveis. A abordagem do projeto também se apoia na teoria da difusão de inovações de Everett Rogers, utilizando a tecnologia para alcançar e impactar positivamente a comunidade escolar. Combinando esses fundamentos teóricos, o Equalize visa transformar o ambiente escolar em um espaço seguro, inclusivo e informativo, promovendo mudanças culturais necessárias para erradicar a violência de gênero.
         </p>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">
