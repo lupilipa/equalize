@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <section>  
+    <main>  
         <h1>Como identificar?</h1>      
         <a class="btn-menu" href="violencias/violencia_fisica.php">Violência Física</a></br>
         <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicologica</a></br>
@@ -45,7 +45,7 @@
         <a class="btn-menu" href="violencias/violencia_moral.php">Violência Moral</a></br>
         <a class="btn-menu" href="violencias/violencia_institucional.php">Violência Institucional</a></br>
         <a class="btn-menu" href="violencias/violencia_digital.php">Violência Digital</a></br>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

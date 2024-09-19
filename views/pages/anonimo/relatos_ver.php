@@ -36,9 +36,9 @@
     </header>
 
     <main>
-        <titulo>
+        <div class="titulo">
             <h1>Relatos</h1>
-        </titulo>
+        </div>
         <a class="btn-menu" href="relatos_relatar.php">Enviar meu relato</a></br>
     </main>
 
