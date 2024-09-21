@@ -30,22 +30,25 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Sexual</h1>
-        <p>O que é? 
-        Envolve qualquer ato sexual realizado sem o consentimento da outra pessoa, como estupro, abuso sexual, e assédio.  
-        Impactos 
-        Traumas físicos e psicológicos. Problemas de saúde, incluindo doenças sexualmente transmissíveis. Sentimentos de vergonha, culpa, e isolamento social.  
-        Como identificar? 
-        Mudanças comportamentais como retraimento ou aversão ao contato físico. Sintomas de ansiedade, pânico ou depressão. Relatos de comportamento sexual inapropriado ou abusivo.  
-        Estratégias de prevenção 
-        Educação sobre consentimento e respeito aos limites. Fortalecimento de redes de apoio para vítimas de violência sexual. Leis rigorosas e punições contra agressores.  
-        </p>
-    </section>
+    <main> 
+        <article>
+            <div class="titulo">
+                <h1>Violência Sexual</h1>
+            </div>
+            <h2>O que é?</h2>
+            <p>Envolve qualquer ato sexual realizado sem o consentimento da outra pessoa, como estupro, abuso sexual, e assédio.</p>
+            <h2>Impactos</h2>
+            <p>Traumas físicos e psicológicos. Problemas de saúde, incluindo doenças sexualmente transmissíveis. Sentimentos de vergonha, culpa, e isolamento social.</p>
+            <h2>Como identificar?</h2>
+            <p>Mudanças comportamentais como retraimento ou aversão ao contato físico. Sintomas de ansiedade, pânico ou depressão. Relatos de comportamento sexual inapropriado ou abusivo.</p>
+            <h2>Estratégias de prevenção</h2>
+            <p>Educação sobre consentimento e respeito aos limites. Fortalecimento de redes de apoio para vítimas de violência sexual. Leis rigorosas e punições contra agressores.</p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">

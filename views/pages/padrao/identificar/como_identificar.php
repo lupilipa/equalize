@@ -30,12 +30,14 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
     <section>  
-        <h1>Como identificar?</h1>      
+        <div class="titulo">
+            <h1>Como identificar?</h1>
+        </div>
         <a class="btn-menu" href="violencias/violencia_fisica.php">Violência Física</a></br>
         <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicologica</a></br>
         <a class="btn-menu" href="violencias/violencia_sexual.php">Violência Sexual</a></br>

@@ -30,22 +30,24 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Física</h1>
-        <p>O que é? 
-        Qualquer ato que cause dano físico a outra pessoa, como empurrões, socos, chutes, queimaduras, e outras formas de agressão corporal.
-        Impactos 
-        Lesões corporais e traumas físicos. Problemas de saúde a longo prazo, como dores crônicas ou deficiências. Efeitos psicológicos, como medo, ansiedade e depressão.  
-        Como identificar? 
-        Presença de marcas físicas como hematomas, cortes ou fraturas. Mudança no comportamento, como retraimento ou medo de determinadas pessoas. Explicações inconsistentes ou evasivas sobre as lesões.  
-        Estratégias de prevenção 
-        Educação sobre os direitos humanos e as consequências da violência. Campanhas de conscientização e apoio às vítimas. Estabelecimento de políticas públicas e leis rigorosas contra a violência.
-        </p>
-    </section>
+    <main>  
+        <article>
+            <div class="titulo">
+                <h1>Violência Física - O que é?</h1>
+            </div>
+            <p>Qualquer ato que cause dano físico a outra pessoa, como empurrões, socos, chutes, queimaduras, e outras formas de agressão corporal.</p>
+            <h2>Impactos</h2>
+            <p>Lesões corporais e traumas físicos. Problemas de saúde a longo prazo, como dores crônicas ou deficiências. Efeitos psicológicos, como medo, ansiedade e depressão.</p>
+            <h2>Como identificar?</h2>
+            <p>Presença de marcas físicas como hematomas, cortes ou fraturas. Mudança no comportamento, como retraimento ou medo de determinadas pessoas. Explicações inconsistentes ou evasivas sobre as lesões.</p>
+            <h2>Estratégias de prevenção</h2>
+            <p>Educação sobre os direitos humanos e as consequências da violência. Campanhas de conscientização e apoio às vítimas. Estabelecimento de políticas públicas e leis rigorosas contra a violência.</p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">

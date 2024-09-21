@@ -30,13 +30,16 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>
-        <h1>Relatos</h1>
-    </section>
+    <main>
+        <div class="titulo">
+            <h1>Relatos</h1>
+        </div>
+        <a class="btn-menu" href="autenticacao/login.php">Enviar meu relato</a></br>
+    </main>
 
     <footer>
         <div class="copyright">
