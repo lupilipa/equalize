@@ -1,0 +1,13 @@
+main a {
+    text-decoration: none;
+    color: black
+}
+
+main .img {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
