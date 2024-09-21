@@ -40,7 +40,7 @@
             <div class="titulo">
                 <h1>O Projeto - Resumo</h1>
             </div>
-            <p>O projeto Equalize: Quebrando o Ciclo da Violência de Gênero é uma plataforma digital interativa que visa combater a violência de gênero por meio de educação, suporte e conscientização. Desenvolvido com tecnologias modernas como HTML, CSS, PHP e JavaScript, o site oferece informações, ferramentas educativas e apoio para vítimas de violência de gênero. O objetivo é promover uma mudança cultural significativa, erradicando práticas violentas e desiguais enquanto engaja a comunidade em ações preventivas e educativas. Além de informar, o Equalize proporciona um espaço seguro para relatos e suporte relacionado à violência de gênero.</p>
+            <p>O projeto Equalize: Quebrando o Ciclo da Violência de Gênero é uma plataforma digital interativa que visa combater a violência de gênero por meio de educação, suporte e conscientização. <strong class="projeto">Desenvolvido com tecnologias modernas</strong> como HTML, CSS, PHP e JavaScript, o site oferece informações, ferramentas educativas e apoio para vítimas de violência de gênero. O objetivo é <strong class="projeto">promover uma mudança cultural</strong> significativa, erradicando práticas violentas e desiguais enquanto engaja a comunidade em ações preventivas e educativas. Além de informar, o Equalize proporciona um espaço seguro para relatos e suporte relacionado à violência de gênero.</p>
         </article>
         <article>
             <h2>Justificativa</h2>
