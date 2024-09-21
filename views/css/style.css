@@ -185,6 +185,10 @@ main .titulo-pagina h2 {
     unicode-bidi: isolate;
 }
 
+main h1 {
+    font-size: 1.6em;
+}
+
 main {
     padding: 10px;
 }

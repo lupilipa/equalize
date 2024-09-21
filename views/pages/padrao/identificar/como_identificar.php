@@ -8,6 +8,7 @@
     <title>Como identificar? - Equalize</title>
     <link rel="icon" href="../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/identificar.css">
 
 </head>
 
@@ -34,19 +35,61 @@
         </div>
     </header>
 
-    <section>  
+    <main>  
         <div class="titulo">
             <h1>Como identificar?</h1>
         </div>
-        <a class="btn-menu" href="violencias/violencia_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicologica</a></br>
-        <a class="btn-menu" href="violencias/violencia_sexual.php">Violência Sexual</a></br>
-        <a class="btn-menu" href="violencias/violencia_financeira.php">Violência Financeira</a></br>
-        <a class="btn-menu" href="violencias/violencia_verbal.php">Violência Verbal</a></br>
-        <a class="btn-menu" href="violencias/violencia_moral.php">Violência Moral</a></br>
-        <a class="btn-menu" href="violencias/violencia_institucional.php">Violência Institucional</a></br>
-        <a class="btn-menu" href="violencias/violencia_digital.php">Violência Digital</a></br>
-    </section>
+        <p>clique para acessar.</p>
+        <a class="btn-menu" href="violencias/violencia_fisica.php">
+            <article>
+                <h2>Violência Física</h2>
+                <div class="img"><img src="../../../media/violencias/fisica.jpg" alt="violencia-fisica"></div>
+                <p>Qualquer ato que cause dano físico a outra pessoa, como empurrões, socos, chutes, queimaduras, e outras formas de agressão corporal.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_psicologica.php">
+            <article>
+                <h2>Violência Psicologica</h2>
+                <p>É uma forma de abuso que visa causar dano emocional ou psicológico, como humilhação, manipulação, intimidação, chantagem, e isolamento.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_sexual.php">
+            <article>
+                <h2>Violência Sexual</h2>
+                <p>Envolve qualquer ato sexual realizado sem o consentimento da outra pessoa, como estupro, abuso sexual, e assédio.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_financeira.php">
+            <article>
+                <h2>Violência Financeira</h2>
+                <p>É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter independência econômica.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_verbal.php">
+            <article>
+                <h2>Violência Verbal</h2>
+                <p>Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_moral.php">
+            <article>
+                <h2>Violência Moral</h2>
+                <p>Consiste em calúnia, difamação, injúria, ou qualquer ato que ofenda a honra ou a dignidade de uma pessoa.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_institucional.php">
+            <article>
+                <h2>Violência Institucional</h2>
+                <p>É a violência cometida por instituições, como discriminação, negligência, abuso de poder ou violação de direitos em serviços públicos ou privados.</p>
+            </article>
+        </a>
+        <a class="btn-menu" href="violencias/violencia_digital.php">
+            <article>
+                <h2>Violência Digital</h2>
+                <p>Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e assédio online.</p>
+            </article>
+        </a>
+    </main>
 
     <footer>
         <div class="copyright">
