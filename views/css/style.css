@@ -20,6 +20,7 @@
     --laranja: #FF9F1C;
     --rosa-claro: #EBD6EB;
     --background: #F8F1F8;
+    --cor-heading: #cc70cc;
 }
 
 * {
@@ -187,6 +188,12 @@ main .titulo-pagina h2 {
 
 main h1 {
     font-size: 1.6em;
+}
+
+main h1, 
+main h2 {
+    color: var(--cor-heading);
+
 }
 
 main {
