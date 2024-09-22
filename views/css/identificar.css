@@ -1,4 +1,12 @@
+main .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
 main a {
+    min-width: 300px;
+    max-width: 375px;
     text-decoration: none;
     color: black
 }
@@ -30,4 +38,14 @@ main .img::after {
     border-radius: 10px;
     color: var(--cor-branco);
     text-shadow: 1px 1px 17px black;
+}
+
+@media screen and (min-width: 796px) {
+    main .titulo,
+    main .titulo ~ p {
+        text-align: center;
+    }
+    main .posts {
+        justify-content: center;
+    }
 }
