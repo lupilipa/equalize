@@ -8,14 +8,15 @@
     <title>Login - Equalize</title>
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
 <body>
 
-    <div class="login">
+    <main class="login">
         <div class="titulo">
-            <h2>Login</h2>
+            <h1>Login</h1>
         </div>
         <div class="form">
             <form action="../../../logica/controllers/ControllerUsuario.php" method="post">
@@ -33,7 +34,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </main>
 
 </body>
 
