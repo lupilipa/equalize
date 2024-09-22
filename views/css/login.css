@@ -49,6 +49,7 @@ main button {
 	border-radius: 10px;
 	background: var(--cor-btn-login);
 	color: var(--cor-branco);
+	cursor: pointer;
 }
 
 main a {
