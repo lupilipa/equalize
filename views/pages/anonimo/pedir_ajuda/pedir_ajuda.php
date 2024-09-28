@@ -31,22 +31,34 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
     
-    <section>
-        <h1>Pedir Ajuda</h1>
-        <a class="btn-menu" href="violencias/ajuda_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/ajuda_psicologica.php">Violência Psicologica</a></br>
-        <a class="btn-menu" href="violencias/ajuda_sexual.php">Violência Sexual</a></br>
-        <a class="btn-menu" href="violencias/ajuda_financeira.php">Violência Financeira</a></br>
-        <a class="btn-menu" href="violencias/ajuda_verbal.php">Violência Verbal</a></br>
-        <a class="btn-menu" href="violencias/ajuda_moral.php">Violência Moral</a></br>
-        <a class="btn-menu" href="violencias/ajuda_institucional.php">Violência Institucional</a></br>
-        <a class="btn-menu" href="violencias/ajuda_digital.php">Violência Digital</a></br>
-        <a class="btn-menu" href="ajuda_identificar.php">Não sei identificar</a></br>
-    </section>
+    <main>
+        <div class="titulo">
+            <h1>Pedir Ajuda</h1>
+        </div>
+        <section>
+            <article>
+                <h2>Não sabe qual violência foi praticada?</h2>
+                <p>Saiba mais sobre os <strong>tipos de violência</strong> <a href="../identificar/como_identificar.php">aqui</a> e peça uma ajuda de forma mais específica.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Clique em algum link:</h2>
+                <a class="btn-menu" href="violencias/ajuda_fisica.php">Violência Física</a></br>
+                <a class="btn-menu" href="violencias/ajuda_psicologica.php">Violência Psicologica</a></br>
+                <a class="btn-menu" href="violencias/ajuda_sexual.php">Violência Sexual</a></br>
+                <a class="btn-menu" href="violencias/ajuda_financeira.php">Violência Financeira</a></br>
+                <a class="btn-menu" href="violencias/ajuda_verbal.php">Violência Verbal</a></br>
+                <a class="btn-menu" href="violencias/ajuda_moral.php">Violência Moral</a></br>
+                <a class="btn-menu" href="violencias/ajuda_institucional.php">Violência Institucional</a></br>
+                <a class="btn-menu" href="violencias/ajuda_digital.php">Violência Digital</a></br>
+            </article>
+        </section>
+    </main>
 
     <footer>
         <div class="copyright">
