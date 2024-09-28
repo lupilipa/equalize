@@ -9,6 +9,7 @@
     <link rel="icon" href="media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 
@@ -39,12 +40,38 @@
         <div class="titulo">
             <h1>Navegue pelo site equalize</h1>
         </div>
-            <a class="btn-menu" href="pages/padrao/igualdade.php">Importância de uma cultura de respeito e igualdade</a></br>
-            <a class="btn-menu" href="pages/padrao/identificar/como_identificar.php">Como identificar?</a></br>
-            <a class="btn-menu" href="pages/autenticacao/login.php">Pedir Ajuda</a></br>
-            <a class="btn-menu" href="pages/padrao/relatos_ver.php">Relatos</a></br>
-            <a class="btn-menu" href="pages/padrao/projeto.php">O projeto</a></br>
-            <a class="btn-menu" href="pages/padrao/contatos.php">Contatos</a></br>
+            <div class="posts">
+                <a class="btn-menu" href="pages/padrao/igualdade.php">
+                    <article>
+                        <h2>Importância de uma cultura de respeito e igualdade</h2>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/identificar/como_identificar.php">
+                    <article>
+                        <h2>Como identificar?</h2>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/autenticacao/login.php">
+                    <article>
+                        <h2>Pedir Ajuda</h2>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/relatos_ver.php">
+                    <article>
+                        <h2>Relatos</h2>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/projeto.php">
+                    <article>
+                        <h2>O projeto</h2>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/contatos.php">
+                    <article>
+                        <h2>Contatos</h2>
+                    </article>
+                </a>
+            </div>
     </main>
 
     <footer>
