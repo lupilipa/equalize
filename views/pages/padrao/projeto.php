@@ -71,7 +71,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../js/fade.js"></script>
     
 </body>
 
