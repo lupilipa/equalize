@@ -35,6 +35,23 @@
             </form>
         </div>
     </main>
+    <footer>
+        <div class="copyright">
+            <p>&copy; Desenvolvido por Luana e Ramon.</p></div>
+        <div class="escola">
+            <p>E.E.E.P Salaberga Torquarto Gomes de Matos</p></div>
+        <div class="links">
+            <div class="paginas">
+                <ul>
+                    <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
+                    <li><a class="btn-menu" href="pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
+                    <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
+                    <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

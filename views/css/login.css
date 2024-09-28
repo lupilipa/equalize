@@ -14,7 +14,7 @@ body {
 body main {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 35%;
 	transform: translate(-50%, -50%);
 	width: 290px;
 	height: fit-content;
@@ -57,4 +57,10 @@ main a {
 	font-size: .8em;
 	text-decoration: none;
 	color: var(--cor-link-login);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
