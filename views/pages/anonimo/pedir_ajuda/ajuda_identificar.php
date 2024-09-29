@@ -31,38 +31,58 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
     
-    <section>
-        <h1>Como identificar?</h1>
-        <p>Violência Física
-        Envolve agressões corporais como socos, chutes, empurrões ou queimaduras. Os sinais podem incluir marcas físicas como hematomas, cortes e fraturas.
+    <main>
+        <div class="titulo">
+            <h1>Como identificar?</h1>
+        </div>
+        <article>
+            <h2>Violência Física</h2>
+            <p>Envolve agressões corporais como socos, chutes, empurrões ou queimaduras. Os sinais podem incluir marcas físicas como hematomas, cortes e fraturas.</p>
+        </article>
 
-        Violência Psicológica ou Emocional
-        Inclui manipulação, intimidação, humilhação e isolamento. Pode causar baixa autoestima, ansiedade e depressão. Identifique mudanças no comportamento, como tristeza constante ou medo.
+        <article>
+            <h2>Violência Psicológica ou Emocional</h2>
+            <p>Inclui manipulação, intimidação, humilhação e isolamento. Pode causar baixa autoestima, ansiedade e depressão. Identifique mudanças no comportamento, como tristeza constante ou medo.</p>
+        </article>
 
-        Violência Sexual
-        Qualquer ato sexual sem consentimento, incluindo abuso e assédio. Pode causar traumas físicos e emocionais, como vergonha e medo. Fique atento a mudanças no comportamento ou aversão ao contato físico.
+        <article>
+            <h2>Violência Sexual</h2>
+            <p>Qualquer ato sexual sem consentimento, incluindo abuso e assédio. Pode causar traumas físicos e emocionais, como vergonha e medo. Fique atento a mudanças no comportamento ou aversão ao contato físico.</p>
+        </article>
 
-        Violência Econômica ou Financeira
-        Envolve o controle do dinheiro, impedindo o acesso aos recursos financeiros ou ao trabalho. Pode resultar em dependência financeira e limitações na qualidade de vida.
+        <article>
+            <h2>Violência Econômica ou Financeira</h2>
+            <p>Envolve o controle do dinheiro, impedindo o acesso aos recursos financeiros ou ao trabalho. Pode resultar em dependência financeira e limitações na qualidade de vida.</p>
+        </article>
 
-        Violência Verbal
-        Consiste em insultos, ameaças e humilhações verbais. Pode levar a baixa autoestima, ansiedade e dificuldades nos relacionamentos.
+        <article>
+            <h2>Violência Verbal</h2>
+            <p>Consiste em insultos, ameaças e humilhações verbais. Pode levar a baixa autoestima, ansiedade e dificuldades nos relacionamentos.</p>
+        </article>
 
-        Violência Moral
-        Inclui calúnia, difamação e ofensas à honra. Pode prejudicar a reputação, causar estresse emocional e isolamento social.
+        <article>
+            <h2>Violência Moral</h2>
+            <p>Inclui calúnia, difamação e ofensas à honra. Pode prejudicar a reputação, causar estresse emocional e isolamento social.</p>
+        </article>
 
-        Violência Institucional
-        É a discriminação, abuso de poder ou negligência cometida por instituições, como serviços públicos. Pode resultar em desconfiança nas instituições e exclusão social.
+        <article>
+            <h2>Violência Institucional</h2>
+            <p>É a discriminação, abuso de poder ou negligência cometida por instituições, como serviços públicos. Pode resultar em desconfiança nas instituições e exclusão social.</p>
+        </article>
 
-        Violência Digital
-        Ocorre através de tecnologias, como cyberbullying, invasão de privacidade e assédio online. Pode causar estresse, ansiedade e danos à reputação.
-        </p>
-        <a class="btn-menu" href="pedir_ajuda.php">Já sei identificar</a></br>
-    </section>
+        <article>
+            <h2>Violência Digital</h2>
+            <p>Ocorre através de tecnologias, como cyberbullying, invasão de privacidade e assédio online. Pode causar estresse, ansiedade e danos à reputação.</p>
+        </article>
+        <article>
+            <h2>Conseguiu reconhecer o tipo de violência?</h2>
+            <p><a class="btn-menu" href="pedir_ajuda.php">Sim, quero pedir ajuda!</a></p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">

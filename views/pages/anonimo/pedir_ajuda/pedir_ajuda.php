@@ -48,7 +48,7 @@
         <section>
             <article>
                 <h2>Não sabe qual violência foi praticada?</h2>
-                <p>Saiba mais sobre os <strong>tipos de violência</strong> <a href="../identificar/como_identificar.php">aqui</a> e peça uma ajuda de forma mais específica.</p>
+                <p>Saiba mais sobre os <strong>tipos de violência</strong> <a href="ajuda_identificar.php">aqui</a> e peça uma ajuda de forma mais específica.</p>
             </article>
         </section>
         <section>
