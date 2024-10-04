@@ -35,14 +35,50 @@
         </div>
     </header>
 
-    <section>
-        <a class="btn-menu" href="pages/padrao/igualdade.php">Importância de uma cultura de respeito e igualdade</a></br>
-        <a class="btn-menu" href="pages/padrao/identificar/como_identificar.php">Como identificar?</a></br>
-        <a class="btn-menu" href="pages/autenticacao/login.php">Pedir Ajuda</a></br>
-        <a class="btn-menu" href="pages/padrao/relatos_ver.php">Relatos</a></br>
-        <a class="btn-menu" href="pages/padrao/projeto.php">O projeto</a></br>
-        <a class="btn-menu" href="pages/padrao/contatos.php">Contatos</a></br>
-    </section>
+    <main>
+        <div class="titulo">
+            <h1>Navegue pelo site equalize</h1>
+            <p>Clique em algum tópico de seu interesse e seja redirecionado para a página desejada.</p>
+        </div>
+            <div class="posts">
+                <a class="btn-menu" href="pages/padrao/igualdade.php">
+                    <article>
+                        <h2>&gt; Importância de uma cultura de respeito e igualdade</h2>
+                        <p>Veja sobre a importância de uma cultura de respeito e igualdade, onde todas as pessoas possam viver e se desenvolver com dignidade, segurança e oportunidade.</p>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/identificar/como_identificar.php">
+                    <article>
+                        <h2>&gt; Como identificar?</h2>
+                        <p>Veja sobre como identificar os tipos de violência, reconhecendo sinais e padrões que podem ajudar a compreender melhor o que aaconteceu e, assim, oferecer o apoio necessário.</p>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/autenticacao/login.php">
+                    <article>
+                        <h2>&gt; Pedir Ajuda</h2>
+                        <p>Faça login ou cadastro (completamente anônimo) para ober melhor apoi e suporte. Estamos aqui para lhe ajudar!</p>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/relatos_ver.php">
+                    <article>
+                        <h2>&gt; Relatos</h2>
+                        <p>Veja relatos de pessoas que, ao utilizarem o site, encontraram o suporte que precisavam e como o projeto foi fundamental em suas jornadas de superação e proteção.</p>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/projeto.php">
+                    <article>
+                        <h2>&gt; O projeto</h2>
+                        <p>Veja mais sobre o que é o projeto Equalize e como ele foi criado.</p>
+                    </article>
+                </a>
+                <a class="btn-menu" href="pages/padrao/contatos.php">
+                    <article>
+                        <h2>&gt; Contatos</h2>
+                        <p>Veja para quem ligar em casos de violência, com uma lista de contatos importantes que podem ajudar a garantir a segurança e o acolhimento necessário.</p>
+                    </article>
+                </a>
+            </div>
+    </main>
 
     <footer>
         <div class="copyright">
