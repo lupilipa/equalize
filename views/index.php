@@ -8,6 +8,7 @@
     <title>Equalize</title>
     <link rel="icon" href="media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
