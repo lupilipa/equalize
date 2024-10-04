@@ -38,7 +38,7 @@
     <section>
         <h1>Pedir Ajuda</h1>
         <a class="btn-menu" href="violencias/ajuda_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/ajuda_psicologica.php">Violência Psicologica</a></br>
+        <a class="btn-menu" href="violencias/ajuda_psicologica.php">Violência Psicológica</a></br>
         <a class="btn-menu" href="violencias/ajuda_sexual.php">Violência Sexual</a></br>
         <a class="btn-menu" href="violencias/ajuda_financeira.php">Violência Financeira</a></br>
         <a class="btn-menu" href="violencias/ajuda_verbal.php">Violência Verbal</a></br>

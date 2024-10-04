@@ -1,3 +1,10 @@
+<?php
+require_once '../../../logica/models/Relatos.class.php';  // Inclui o controller
+
+$controller = new Relatos();  // Cria uma instância do controller
+$relatos = $controller->listarRelatos();  // Lista os relatos
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,6 +16,7 @@
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/table.css">
 
 </head>
 
@@ -34,7 +42,40 @@
     </header>
     
     <section>
-        <h1>Relatos: ADM</h1>
+
+        <div class="titulo">
+            <h1>Relatos: ADM</h1>
+        </div>
+        <div class="table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Nome do Usuário</th>
+                        <th>Relato</th>
+                        <th>Disponibilizar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($relatos as $row): ?>
+                        <tr>
+                            <td><?= htmlspecialchars($row['nome']) ?></td>
+                            <td><?= htmlspecialchars($row['relato']) ?></td>
+                            <td><button onclick="abrirModal(<?= $row['id_relato'] ?>)">Disponibilizar Relato</button></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal">
+            <div id="modal-content">
+                <p>Tem certeza que deseja disponibilizar este relato?</p>
+                <button id="confirmar">Disponibilizar</button>
+                <button id="cancelar">Cancelar</button>
+            </div>
+        </div>
+
     </section>
 
     <footer>
@@ -54,6 +95,7 @@
     </footer>
     
     <script src="../../js/fade.js"></script>
+    <script src="../../js/script.js"></script>
 
 </body>
 

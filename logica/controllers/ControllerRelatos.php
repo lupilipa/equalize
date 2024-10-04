@@ -1,7 +1,7 @@
 <?php
 
 require('../models/Relatos.class.php');
-require('../models/Usuario.class.php');
+require('../models/Usuarios.class.php');
 
 if(isset($_POST['enviar_relato'])){
 
@@ -12,7 +12,22 @@ if(isset($_POST['enviar_relato'])){
     $data = date('Y-m-d');
     $horario = date('H:i:s');
 
-    $relatos  = new Relatos();
-    $relatos->inserirRelato($id_usuario, $relato, $data, $horario);
+    $relato = new Relatos(); // Passe a instância de PDO ao controller
+    $relato->inserirRelato($id_usuario, $relato, $data, $horario);
 
 }
+
+if (isset($_POST['id_relato'])) {
+
+    session_start();
+    $id_relato = $_POST['id_relato'];
+    $relato = new Relatos();
+    $resultado = $relato->disponibilizarRelato($id_relato);
+
+    // Retorna um JSON
+    if ($resultado) {
+        echo json_encode(['success' => true]);
+    } else {
+        echo json_encode(['success' => false, 'message' => 'Erro ao atualizar']);
+    }
+} 

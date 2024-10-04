@@ -23,6 +23,7 @@
         <nav id="menu-links">
             <ul>
                 <li><a class="btn-menu" href="pages/autenticacao/login.php">Login</a></li>
+                <li><a class="btn-menu" href="index.php">Página Inicial</a></li>
                 <li><a class="btn-menu" href="pages/padrao/identificar/como_identificar.php">Como identificar?</a></li>
                 <li><a class="btn-menu" href="pages/autenticacao/login.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="pages/padrao/relatos_ver.php">Relatos</a></li>

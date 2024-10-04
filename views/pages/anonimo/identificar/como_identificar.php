@@ -38,7 +38,7 @@
     <section>  
         <h1>Como identificar?</h1>      
         <a class="btn-menu" href="violencias/violencia_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicologica</a></br>
+        <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicológica</a></br>
         <a class="btn-menu" href="violencias/violencia_sexual.php">Violência Sexual</a></br>
         <a class="btn-menu" href="violencias/violencia_financeira.php">Violência Financeira</a></br>
         <a class="btn-menu" href="violencias/violencia_verbal.php">Violência Verbal</a></br>
