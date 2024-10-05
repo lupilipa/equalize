@@ -101,7 +101,7 @@ header #menuHambId:checked ~ .container .hamburger::after {
 header nav {
     position: fixed;
     top: 0;
-    left: -55%;
+    left: -70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +125,7 @@ header .fade {
 }
 
 header #menuHambId:checked ~ nav {
-    transform: translateX(198%);
+    transform: translateX(104%);
 }
 
 header #menuHambId:checked ~ .fade {
@@ -254,4 +254,48 @@ footer .paginas ul li {
 footer .paginas a {
     text-decoration: none;
     color: var(--cor-branco);
+}
+
+@media screen and (min-width: 412px) {
+    /* header nav {
+        left: ;
+    } */
+
+    header #menuHambId:checked ~ nav {
+        transform: translateX(115%);
+    }
+}
+
+/* Breakpoint para dispositivos um pouco maiores (tablet) */
+@media screen and (min-width: 600px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(175%);
+    }
+}
+
+/* Para tablets e dispositivos maiores (768px) */
+@media screen and (min-width: 768px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(226%); 
+    }
+}
+
+/* Para telas grandes (1024px ou mais) */
+@media screen and (min-width: 1024px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(306%);
+    }
+}
+
+/* Para desktops grandes (1280px ou mais) */
+@media screen and (min-width: 1280px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(380%);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(430%);
+    }
 }
