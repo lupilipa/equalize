@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.img-section img {
+    width: 100%
+}
+
+@media screen and (min-width: 1024px) {
+    .section {
+        max-width: 1000px;
+        justify-content: center;
+        gap: 10px;
+    }
+    .section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .section article {
+        width: calc(50% - 20px);
+    }
+    .section article h1,
+    .section article h2  {
+        text-align: center;
+    }
+    .section .img-section {
+        display: flex;
+        align-items: center;
+        width: calc(50% - 20px);
+    }
+}

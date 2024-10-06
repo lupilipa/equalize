@@ -190,6 +190,15 @@ main .titulo-pagina h2 {
     unicode-bidi: isolate;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    max-width: 1000px;
+}
+
 main h1 {
     font-size: 1.7em;
 }
