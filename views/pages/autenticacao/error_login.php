@@ -26,11 +26,11 @@
         <div class="links">
             <div class="paginas">
                 <ul>
-                    <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
-                    <li><a class="btn-menu" href="pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
-                    <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
-                    <li><a class="btn-menu" href="projeto.php">O projeto</a></li>
-                    <li><a class="btn-menu" href="contatos.php">Contatos</a></li>
+                    <li><a class="btn-menu" href="../padrao/identificar/como_identificar.php">Como identificar?</a></li>
+                    <li><a class="btn-menu" href="../padrao/pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="../padrao/relatos_ver.php">Relatos</a></li>
+                    <li><a class="btn-menu" href="../padrao/projeto.php">O projeto</a></li>
+                    <li><a class="btn-menu" href="../padrao/contatos.php">Contatos</a></li>
                 </ul>
             </div>
         </div>
