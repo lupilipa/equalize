@@ -101,7 +101,7 @@ header #menuHambId:checked ~ .container .hamburger::after {
 header nav {
     position: fixed;
     top: 0;
-    left: -70%;
+    left: -77%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,9 +270,21 @@ footer .paginas a {
     color: var(--cor-branco);
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 370px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(111%);
+    }
+}
+
+@media screen and (min-width: 390px) {
     header #menuHambId:checked ~ nav {
         transform: translateX(115%);
+    }
+}
+
+@media screen and (min-width: 414px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(131%);
     }
 }
 
