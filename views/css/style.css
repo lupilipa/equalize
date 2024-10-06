@@ -257,12 +257,14 @@ footer .paginas a {
 }
 
 @media screen and (min-width: 412px) {
-    /* header nav {
-        left: ;
-    } */
-
     header #menuHambId:checked ~ nav {
         transform: translateX(115%);
+    }
+}
+
+@media screen and (min-width: 512px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(150%);
     }
 }
 
@@ -273,10 +275,35 @@ footer .paginas a {
     }
 }
 
+@media screen and (min-width: 712px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(210%);
+    }
+}
+
 /* Para tablets e dispositivos maiores (768px) */
 @media screen and (min-width: 768px) {
     header #menuHambId:checked ~ nav {
         transform: translateX(226%); 
+    }
+}
+
+@media screen and (min-width: 812px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(240%);
+    }
+}
+
+
+@media screen and (min-width: 912px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(270%);
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(300%);
     }
 }
 
@@ -287,6 +314,54 @@ footer .paginas a {
     }
 }
 
+@media screen and (min-width: 1052px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(320%);
+    }
+}
+
+@media screen and (min-width: 1102px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(330%);
+    }
+}
+
+@media screen and (min-width: 1132px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(343%);
+    }
+}
+
+@media screen and (min-width: 1172px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(353%);
+    }
+}
+
+@media screen and (min-width: 1172px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(353%);
+    }
+}
+
+@media screen and (min-width: 1202px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(362%);
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(372%);
+    }
+}
+
+@media screen and (min-width: 1272px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(382%);
+    }
+}
+
 /* Para desktops grandes (1280px ou mais) */
 @media screen and (min-width: 1280px) {
     header #menuHambId:checked ~ nav {
@@ -294,8 +369,26 @@ footer .paginas a {
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1292px) {
     header #menuHambId:checked ~ nav {
-        transform: translateX(430%);
+        transform: translateX(392%);
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(400%);
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(410%);
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(420%);
     }
 }
