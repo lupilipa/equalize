@@ -40,6 +40,7 @@
                 <h1>Violência Verbal - O que é?</h1>
             </div>
             <p>Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.</p>
+            <img src="../../../../media/violencias/verbal.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Baixa autoestima e insegurança. Desenvolvimento de problemas de saúde mental como ansiedade e depressão. Dificuldades em relacionamentos interpessoais.</p>
             <h2>Como identificar?</h2>

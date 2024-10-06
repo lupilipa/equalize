@@ -41,6 +41,7 @@
             </div>
             <h2>O que é?</h2>
             <p>Envolve qualquer ato sexual realizado sem o consentimento da outra pessoa, como estupro, abuso sexual, e assédio.</p>
+            <img src="../../../../media/violencias/sexual.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Traumas físicos e psicológicos. Problemas de saúde, incluindo doenças sexualmente transmissíveis. Sentimentos de vergonha, culpa, e isolamento social.</p>
             <h2>Como identificar?</h2>

@@ -40,6 +40,7 @@
                 <h1>Violência Física - O que é?</h1>
             </div>
             <p>Qualquer ato que cause dano físico a outra pessoa, como empurrões, socos, chutes, queimaduras, e outras formas de agressão corporal.</p>
+            <img src="../../../../media/violencias/fisica.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Lesões corporais e traumas físicos. Problemas de saúde a longo prazo, como dores crônicas ou deficiências. Efeitos psicológicos, como medo, ansiedade e depressão.</p>
             <h2>Como identificar?</h2>

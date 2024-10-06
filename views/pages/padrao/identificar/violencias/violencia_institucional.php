@@ -40,6 +40,7 @@
                 <h1>Violência Institucional - O que é?</h1>
             </div>
             <p>É a violência cometida por instituições, como discriminação, negligência, abuso de poder ou violação de direitos em serviços públicos ou privados.</p>
+            <img src="../../../../media/violencias/institucional.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Desconfiança nas instituições e nos serviços oferecidos. Exclusão social e dificuldade de acesso a direitos básicos. Traumas e impactos emocionais decorrentes do abuso de poder.  </p>
             <h2>Como identificar?</h2>

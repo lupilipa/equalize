@@ -6,7 +6,7 @@ main .posts {
 
 main a {
     min-width: 300px;
-    max-width: 375px;
+    max-width: 360px;
     text-decoration: none;
     color: black
 }

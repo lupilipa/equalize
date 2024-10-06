@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <header>
         <input type="checkbox" name="menuHamb" id="menuHambId" style="display:none;">
         <div class="container">
@@ -19,13 +20,12 @@
         </div>
         <nav id="menu-links">
             <ul>
-                <li><a class="btn-sair" href="../../../../../logica/controllers/ControllerLogin.php?logout">Sair</a></li>
-                <li><a class="btn-menu" href="../../home_anonimo.php">Home</a></li>
+                <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
                 <li><a class="btn-menu" href="../../identificar/como_identificar.php">Como identificar?</a></li>
-                <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
+                <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                 <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
-                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>
+                <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>      
             </ul>
         </nav>
         <div class="fade"></div>
@@ -40,6 +40,7 @@
                 <h1>Violência Psicológica - O que é?</h1>
             </div>
             <p>É uma forma de abuso que visa causar dano emocional ou psicológico, como humilhação, manipulação, intimidação, chantagem, e isolamento.</p>
+            <img src="../../../../media/violencias/psicologica.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Baixa autoestima, depressão e ansiedade. Dificuldade em manter relacionamentos saudáveis. Traumas psicológicos duradouros.</p>
             <h2>Como identificar?</h2>
@@ -57,8 +58,9 @@
         <div class="links">
             <div class="paginas">
                 <ul>
+                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Login</a></li>
                     <li><a class="btn-menu" href="../como_identificar.php">Como identificar?</a></li>
-                    <li><a class="btn-menu" href="../../pedir_ajuda/pedir_ajuda.php">Pedir Ajuda</a></li>
+                    <li><a class="btn-menu" href="../../../autenticacao/login.php">Pedir Ajuda</a></li>
                     <li><a class="btn-menu" href="../../relatos_ver.php">Relatos</a></li>
                     <li><a class="btn-menu" href="../../projeto.php">O projeto</a></li>
                     <li><a class="btn-menu" href="../../contatos.php">Contatos</a></li>

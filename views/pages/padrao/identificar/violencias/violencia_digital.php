@@ -40,6 +40,7 @@
                 <h1>Violência Digital - O que é?</h1>
             </titulo>
             <p>Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e assédio online.</p>
+            <img src="../../../../media//violencias/digital.jpg" alt="Foto ilustrativa">
         </article>
         <article>
             <h2>Impactos</h2>

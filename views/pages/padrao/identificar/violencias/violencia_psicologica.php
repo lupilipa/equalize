@@ -40,6 +40,7 @@
                 <h1>Violência Psicológica - O que é?</h1>
             </div>
             <p>É uma forma de abuso que visa causar dano emocional ou psicológico, como humilhação, manipulação, intimidação, chantagem, e isolamento.</p>
+            <img src="../../../../media/violencias/psicologica.jpg" alt="Foto ilustrativa">
             <h2>Impactos</h2>
             <p>Baixa autoestima, depressão e ansiedade. Dificuldade em manter relacionamentos saudáveis. Traumas psicológicos duradouros.</p>
             <h2>Como identificar?</h2>

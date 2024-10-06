@@ -40,6 +40,7 @@
                 <h1>Violência Financeira - O que é?</h1>
             </div>
             <p>É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter independência econômica.</p>
+            <img src="../../../../media/violencias/financeira.jpg" alt="Foto ilustrativa">
         </article>  
         <article>
             <h2>Impactos </h2>

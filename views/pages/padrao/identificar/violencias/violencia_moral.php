@@ -40,6 +40,7 @@
                 <h1>Violência Moral- O que é? </h1>
             </div>
             <p>Consiste em calúnia, difamação, injúria, ou qualquer ato que ofenda a honra ou a dignidade de uma pessoa.</p>
+            <img src="../../../../media/violencias/moral.jpg" alt="Foto ilustrativa">
             <h2>Impactos </h2>
             <p>Dano à reputação e à imagem social. Estresse emocional e possíveis complicações legais. Isolamento social e danos à autoestima.</p>
             <h2>Como identificar? </h2>
