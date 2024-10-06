@@ -11,6 +11,13 @@ main a {
     color: black
 }
 
+main a article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 245px;
+}
+
 main .img {
     position: relative;
     width: 100%;
