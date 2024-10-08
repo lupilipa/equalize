@@ -1,8 +1,8 @@
 <?php
-require_once '../../../logica/models/Relatos.class.php';  // Inclui o controller
+require('../../../logica/models/Relatos.class.php'); 
 
-$controller = new Relatos();  // Cria uma instância do controller
-$relatos = $controller->listarRelatos();  // Lista os relatos
+$controller = new Relatos(); 
+$relatos = $controller->listarRelatos();  
 ?>
 
 <!DOCTYPE html>
@@ -52,6 +52,7 @@ $relatos = $controller->listarRelatos();  // Lista os relatos
                     <tr>
                         <th>Nome do Usuário</th>
                         <th>Relato</th>
+                        <th>Ação</th>
                         <th>Disponibilizar</th>
                     </tr>
                 </thead>
@@ -60,7 +61,12 @@ $relatos = $controller->listarRelatos();  // Lista os relatos
                         <tr>
                             <td><?= htmlspecialchars($row['nome']) ?></td>
                             <td><?= htmlspecialchars($row['relato']) ?></td>
-                            <td><button onclick="abrirModal(<?= $row['id_relato'] ?>)">Disponibilizar Relato</button></td>
+                            <td><?php if($row['disponibilizado'] == 1) { echo "Mostrando";} else { echo "Oculto";} ?></td>
+                            <?php if($row['disponibilizado'] == 1) {
+                                    echo "<td><button onclick='abrirOcultar(" . $row['id_relato'] . ")'>Ocultar</button></td>";
+                                } else { 
+                                    echo "<td><button onclick='abrirMostrar(" . $row['id_relato'] . ")'>Mostrar</button></td>";
+                            } ?>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
@@ -68,11 +74,19 @@ $relatos = $controller->listarRelatos();  // Lista os relatos
         </div>
 
         <!-- Modal -->
-        <div id="modal">
+        <div id="modalMostrar">
             <div id="modal-content">
                 <p>Tem certeza que deseja disponibilizar este relato?</p>
-                <button id="confirmar">Disponibilizar</button>
-                <button id="cancelar">Cancelar</button>
+                <button id="mostrarRelato">Mostrar</button>
+                <button id="mostrarCancelar">Cancelar</button>
+            </div>
+        </div>
+
+        <div id="modalOcultar">
+            <div id="modal-content">
+                <p>Tem certeza que deseja ocultar este relato?</p>
+                <button id="ocultarRelato">Ocultar</button>
+                <button id="ocultarCancelar">Cancelar</button>
             </div>
         </div>
 

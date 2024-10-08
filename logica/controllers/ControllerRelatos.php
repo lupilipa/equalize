@@ -17,17 +17,21 @@ if(isset($_POST['enviar_relato'])){
 
 }
 
-if (isset($_POST['id_relato'])) {
+if (isset($_POST['id'])) {
+    $id_relato = $_POST['id']; // Corrigir nome do parâmetro
 
-    session_start();
-    $id_relato = $_POST['id_relato'];
-    $relato = new Relatos();
-    $resultado = $relato->disponibilizarRelato($id_relato);
+    $relatose = new Relatos();
+    $relato = $relatose->listarRelatoPorId($id_relato);
 
-    // Retorna um JSON
+    if ($relato['disponibilizado'] == 1) { // Condição correta para ocultar ou mostrar
+        $resultado = $relatose->ocultarRelato($id_relato);
+    } else {
+        $resultado = $relatose->mostrarRelato($id_relato);
+    }
+
     if ($resultado) {
         echo json_encode(['success' => true]);
     } else {
-        echo json_encode(['success' => false, 'message' => 'Erro ao atualizar']);
+        echo json_encode(['success' => false]);
     }
-} 
+}

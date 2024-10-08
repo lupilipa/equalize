@@ -1,35 +1,69 @@
 let relatoId = null;
-const modal = document.getElementById('modal');
-const confirmarBtn = document.getElementById('confirmar');
-const cancelarBtn = document.getElementById('cancelar');
+const modalOcultar = document.getElementById('modalOcultar');
+const modalMostrar = document.getElementById('modalMostrar');
+const mostrarBtn = document.getElementById('mostrarRelato');
+const ocultarBtn = document.getElementById('ocultarRelato');
+const mostrarCancelarBtn = document.getElementById('mostrarCancelar');
+const ocultarCancelarBtn = document.getElementById('ocultarCancelar');
 
-function abrirModal(id_relato) {
+function abrirOcultar(id_relato) {
     relatoId = id_relato;
-    modal.style.display = 'flex';
+    modalOcultar.style.display = 'flex';
 }
 
-cancelarBtn.onclick = function() {
-    modal.style.display = 'none';
+ocultarCancelarBtn.onclick = function() {
+    modalOcultar.style.display = 'none';
     relatoId = null;
 };
 
-confirmarBtn.onclick = function() {
+ocultarBtn.onclick = function() {
     if (relatoId) {
         fetch('../../logica/controllers/ControllerRelatos.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
-            body: 'id_relato=' + relatoId
+            body: 'id=' + relatoId
         })
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                window.location.reload();
+                alert('Atualize a página');
+            } else {
+                alert('Erro ao ocultar o relato');
+            }
+        });
+    }
+    modalOcultar.style.display = 'none';
+};
+
+function abrirMostrar(id_relato) {
+    relatoId = id_relato;
+    modalMostrar.style.display = 'flex';
+}
+
+mostrarCancelarBtn.onclick = function() {
+    modalMostrar.style.display = 'none';
+    relatoId = null;
+};
+
+mostrarBtn.onclick = function() {
+    if (relatoId) {
+        fetch('../../logica/controllers/ControllerRelatos.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded'
+            },
+            body: 'id=' + relatoId
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert('Atualize a página');
             } else {
                 alert('Erro ao disponibilizar o relato');
             }
         });
     }
-    modal.style.display = 'none';
+    modalMostrar.style.display = 'none';
 };

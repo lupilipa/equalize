@@ -17,10 +17,10 @@ class Relatos{
     }
     public function listarRelatos() {
         $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
-        $sql = "SELECT r.id_relato, u.nome, r.relato 
-                FROM relatos r 
-                INNER JOIN usuarios u ON r.id_usuario = u.id_usuario 
-                ORDER BY r.id_relato DESC"; // Ordem do mais recente para o mais antigo
+        $sql = "SELECT relatos.id_relato, usuarios.nome, relatos.relato, relatos.disponibilizado
+                FROM relatos 
+                INNER JOIN usuarios ON relatos.id_usuario = usuarios.id_usuario 
+                ORDER BY relatos.id_relato DESC";
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute();
@@ -28,12 +28,32 @@ class Relatos{
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function disponibilizarRelato($id_relato) {
+    public function listarRelatoPorId($id_relato) {
         $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
-        $sql = "UPDATE table relatos SET disponibilizado = 1 WHERE id_relato = :id_relato";
+        $sql = "SELECT * FROM relatos WHERE id_relato = :id_relato";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
         $stmt->execute();
+    
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }    
+
+    public function mostrarRelato($id_relato) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "UPDATE relatos SET disponibilizado = 1 WHERE id_relato = :id_relato";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
+        $stmt->execute();
+        return true;
+    }
+
+    public function ocultarRelato($id_relato) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "UPDATE relatos SET disponibilizado = 0 WHERE id_relato = :id_relato";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
+        $stmt->execute();
+        return true;
     }
 
 }
