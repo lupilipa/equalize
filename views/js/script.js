@@ -18,7 +18,7 @@ ocultarCancelarBtn.onclick = function() {
 
 ocultarBtn.onclick = function() {
     if (relatoId) {
-        fetch('../../logica/controllers/ControllerRelatos.php', {
+        fetch('../../../logica/controllers/ControllerRelatos.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
@@ -28,7 +28,7 @@ ocultarBtn.onclick = function() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                alert('Atualize a página');
+                window.location.reload();
             } else {
                 alert('Erro ao ocultar o relato');
             }
@@ -49,7 +49,7 @@ mostrarCancelarBtn.onclick = function() {
 
 mostrarBtn.onclick = function() {
     if (relatoId) {
-        fetch('../../logica/controllers/ControllerRelatos.php', {
+        fetch('../../../logica/controllers/ControllerRelatos.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
@@ -59,7 +59,7 @@ mostrarBtn.onclick = function() {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                alert('Atualize a página');
+                window.location.reload();
             } else {
                 alert('Erro ao disponibilizar o relato');
             }

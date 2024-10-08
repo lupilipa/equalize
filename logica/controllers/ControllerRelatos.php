@@ -1,7 +1,7 @@
 <?php
 
 require('../models/Relatos.class.php');
-require('../models/Usuarios.class.php');
+require('../models/Usuario.class.php');
 
 if(isset($_POST['enviar_relato'])){
 
