@@ -3,7 +3,7 @@
 class Ajuda{
 
     public function armazenarAjudaDigital($id_usuario, $vitima, $frequencia, $agressor, $inseguro, $ja_denunciou, $protegido, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_digital (id_usuario, vitima, frequencia, agressor, inseguro, ja_denunciou, protegido, data, horario) values (:id_usuario, :vitima, :frequencia, :agressor, :inseguro, :ja_denunciou, :protegido, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -22,7 +22,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaFinanceira($id_usuario, $controle, $impedido, $acesso, $controlador, $coagido, $procurou_ajuda, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_financ (id_usuario, controle, impedido, acesso, controlador, coagido, procurou_ajuda, data, horario) values (:id_usuario, :controle, :impedido, :acesso, :controlador, :coagido, :procurou_ajuda, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -41,7 +41,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaFisica($id_usuario, $agressoes, $frequencia, $atend_medico, $agressor, $relatado, $seguranca, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_fisica (id_usuario, agressoes, frequencia, atend_medico, agressor, relatado, seguranca, data, horario) values (:id_usuario, :agressoes, :frequencia, :atend_medico, :agressor, :relatado, :seguranca, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -60,7 +60,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaInstitucional($id_usuario, $discriminado, $instituicao, $negligenciado, $ja_denunciou, $afetou_acesso, $confianca, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_insti (id_usuario, discriminado, instituicao, negligenciado, ja_denunciou, afetou_acesso, confianca, data, horario) values (:id_usuario, :discriminado, :instituicao, :negligenciado, :ja_denunciou, :afetou_acesso, :confianca, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -79,7 +79,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaMoral($id_usuario, $difamado, $afetou_imagem, $agressor, $perseguido, $procurou_ajuda, $continua, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_moral (id_usuario, difamado, afetou_imagem, agressor, perseguido, procurou_ajuda, continua, data, horario) values (:id_usuario, :difamado, :afetou_imagem, :agressor, :perseguido, :procurou_ajuda, :continua, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -98,7 +98,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaPsicologica($id_usuario, $manipulado, $isolado, $ameacado, $agressor, $depressao, $procurou_ajuda, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_psico (id_usuario, manipulado, isolado, ameacado, agressor, depressao, procurou_ajuda, data, horario) values (:id_usuario, :manipulado, :isolado, :ameacado, :agressor, :depressao, :procurou_ajuda, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -117,7 +117,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaSexual($id_usuario, $forcado, $tocado, $seguro, $agressor, $procurou_ajuda, $medo, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_sexual (id_usuario, forcado, tocado, seguro, agressor, procurou_ajuda, medo, data, horario) values (:id_usuario, :forcado, :tocado, :seguro, :agressor, :procurou_ajuda, :medo, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -136,7 +136,7 @@ class Ajuda{
     }
 
     public function armazenarAjudaVerbal($id_usuario, $xingado, $frequencia, $agressor, $afeta_saude, $ja_pediu, $ja_conversou, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO violencia_verbal (id_usuario, xingado, frequencia, agressor, afeta_saude, ja_pediu, ja_conversou, data, horario) values (:id_usuario, :xingado, :frequencia, :agressor, :afeta_saude, :ja_pediu, :ja_conversou, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -155,7 +155,7 @@ class Ajuda{
     }
 
     public function listarAjudaDigital() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_digital 
                 INNER JOIN usuarios ON violencia_digital.id_usuario = usuarios.id_usuario 
@@ -168,7 +168,7 @@ class Ajuda{
     }
 
     public function listarDigitalModal($id_digital) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_digital 
                 INNER JOIN usuarios ON violencia_digital.id_usuario = usuarios.id_usuario AND id_violencia = :id_digital";
@@ -179,7 +179,7 @@ class Ajuda{
     }
 
     public function listarAjudaFinanceira() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_financ 
                 INNER JOIN usuarios ON violencia_financ.id_usuario = usuarios.id_usuario 
@@ -192,7 +192,7 @@ class Ajuda{
     }
 
     public function listarFinanceiraModal($id_financeira) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_financ 
                 INNER JOIN usuarios ON violencia_financ.id_usuario = usuarios.id_usuario AND id_violencia = :id_financeira";
@@ -203,7 +203,7 @@ class Ajuda{
     }
 
     public function listarAjudaFisica() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_fisica 
                 INNER JOIN usuarios ON violencia_fisica.id_usuario = usuarios.id_usuario 
@@ -216,7 +216,7 @@ class Ajuda{
     }
 
     public function listarFisicaModal($id_fisica) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_fisica 
                 INNER JOIN usuarios ON violencia_fisica.id_usuario = usuarios.id_usuario AND id_violencia = :id_fisica";
@@ -227,7 +227,7 @@ class Ajuda{
     }
 
     public function listarAjudaInstitucional() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_insti 
                 INNER JOIN usuarios ON violencia_insti.id_usuario = usuarios.id_usuario 
@@ -240,7 +240,7 @@ class Ajuda{
     }
 
     public function listarInstitucionalModal($id_institucional) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_insti 
                 INNER JOIN usuarios ON violencia_insti.id_usuario = usuarios.id_usuario AND id_violencia = :id_institucional";
@@ -251,7 +251,7 @@ class Ajuda{
     }
 
     public function listarAjudaMoral() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_moral 
                 INNER JOIN usuarios ON violencia_moral.id_usuario = usuarios.id_usuario 
@@ -264,7 +264,7 @@ class Ajuda{
     }
 
     public function listarMoralModal($id_moral) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_moral 
                 INNER JOIN usuarios ON violencia_moral.id_usuario = usuarios.id_usuario AND id_violencia = :id_moral";
@@ -275,7 +275,7 @@ class Ajuda{
     }
 
     public function listarAjudaPsicologica() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_psico 
                 INNER JOIN usuarios ON violencia_psico.id_usuario = usuarios.id_usuario 
@@ -288,7 +288,7 @@ class Ajuda{
     }
 
     public function listarPsicologicaModal($id_psicologica) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_psico 
                 INNER JOIN usuarios ON violencia_psico.id_usuario = usuarios.id_usuario AND id_violencia = :id_psicologica";
@@ -299,7 +299,7 @@ class Ajuda{
     }
 
     public function listarAjudaSexual() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_sexual 
                 INNER JOIN usuarios ON violencia_sexual.id_usuario = usuarios.id_usuario 
@@ -312,7 +312,7 @@ class Ajuda{
     }
 
     public function listarSexualModal($id_sexual) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_sexual 
                 INNER JOIN usuarios ON violencia_sexual.id_usuario = usuarios.id_usuario AND id_violencia = :id_sexual";
@@ -323,7 +323,7 @@ class Ajuda{
     }
 
     public function listarAjudaVerbal() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_verbal 
                 INNER JOIN usuarios ON violencia_verbal.id_usuario = usuarios.id_usuario 
@@ -336,7 +336,7 @@ class Ajuda{
     }
 
     public function listarVerbalModal($id_verbal) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT *
                 FROM violencia_verbal 
                 INNER JOIN usuarios ON violencia_verbal.id_usuario = usuarios.id_usuario AND id_violencia = :id_verbal";

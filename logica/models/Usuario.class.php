@@ -3,7 +3,7 @@
 class Usuario{
 
     public function autenticar($credencial, $senha){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "select * from usuarios where :credencial = credencial and :senha = senha";
         $result = $pdo->prepare($query);
         $result->bindValue(":credencial", $credencial);
@@ -26,7 +26,7 @@ class Usuario{
     }
 
     public function cadastrar($credencial, $senha, $tipo_usuario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO usuarios (credencial, senha, tipo_usuario) values (:credencial, :senha, :tipo_usuario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":credencial", $credencial);

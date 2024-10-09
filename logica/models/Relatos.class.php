@@ -3,7 +3,7 @@
 class Relatos{
 
     public function inserirRelato($id_usuario, $relato, $data, $horario){
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $query = "INSERT INTO relatos (id_usuario, relato, data, horario) values (:id_usuario, :relato, :data, :horario)";
         $result = $pdo->prepare($query);
         $result->bindValue(":id_usuario", $id_usuario);
@@ -16,7 +16,7 @@ class Relatos{
         
     }
     public function listarRelatos() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT relatos.id_relato, usuarios.nome, relatos.relato, relatos.data, relatos.horario, relatos.disponibilizado
                 FROM relatos 
                 INNER JOIN usuarios ON relatos.id_usuario = usuarios.id_usuario 
@@ -29,7 +29,7 @@ class Relatos{
     }
 
     public function listarRelatosDisp() {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT usuarios.nome, relatos.relato
                 FROM relatos 
                 INNER JOIN usuarios ON relatos.id_usuario = usuarios.id_usuario AND relatos.disponibilizado = 1
@@ -42,7 +42,7 @@ class Relatos{
     }
 
     public function listarRelatoPorId($id_relato) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "SELECT * FROM relatos WHERE id_relato = :id_relato";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
@@ -52,7 +52,7 @@ class Relatos{
     }    
 
     public function mostrarRelato($id_relato) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "UPDATE relatos SET disponibilizado = 1 WHERE id_relato = :id_relato";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
@@ -61,7 +61,7 @@ class Relatos{
     }
 
     public function ocultarRelato($id_relato) {
-        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $pdo = new pdo("mysql:host=sql311.infinityfree.com; dbname=if0_34490143_equalize", "if0_34490143", "ZelVBWHTerGTZY");
         $sql = "UPDATE relatos SET disponibilizado = 0 WHERE id_relato = :id_relato";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':id_relato', $id_relato, PDO::PARAM_INT);
