@@ -31,42 +31,57 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
     <section>  
-        <h1>Me informar melhor</h1>
-        <p>Como lidar com situações de violência?
+        <article>
+            <div class="titulo">
+                <h1>Me informar melhor</h1>
+            </div>
+            <h2>Como lidar com situações de violência?</h2>
+            <p>Se você não precisa de ajuda imediata, mas quer se informar sobre como proceder em casos de violência, aqui estão algumas orientações e formas de contato que podem ser úteis:</p>
+        </article>
 
-        Se você não precisa de ajuda imediata, mas quer se informar sobre como proceder em casos de violência, aqui estão algumas orientações e formas de contato que podem ser úteis:
+        <article>
+            <h2>Identificação e Documentação:</h2>
+            <p>Reconheça os sinais de violência: Entenda os diferentes tipos de violência (física, psicológica, sexual, econômica, etc.) e como eles podem se manifestar.</p>
+            <p>Documente tudo: Mantenha um registro de incidentes, incluindo datas, horários, detalhes do ocorrido, e qualquer evidência disponível, como fotos, mensagens ou testemunhos.</p>
+        </article>
 
-        Identificação e Documentação:
-        Reconheça os sinais de violência: Entenda os diferentes tipos de violência (física, psicológica, sexual, econômica, etc.) e como eles podem se manifestar.
-        Documente tudo: Mantenha um registro de incidentes, incluindo datas, horários, detalhes do ocorrido, e qualquer evidência disponível, como fotos, mensagens ou testemunhos.
+        <article>
+            <h2>Conheça seus Direitos:</h2>
+            <p>Informar-se sobre seus direitos é o primeiro passo para buscar proteção. Consulte as leis que se aplicam ao seu caso, como a Lei Maria da Penha em casos de violência doméstica, e saiba quais medidas protetivas você pode solicitar.</p>
+        </article>
 
-        Conheça seus Direitos:
-        Informar-se sobre seus direitos é o primeiro passo para buscar proteção. Consulte as leis que se aplicam ao seu caso, como a Lei Maria da Penha em casos de violência doméstica, e saiba quais medidas protetivas você pode solicitar.
+        <article>
+            Formas de Contato e Apoio Dentro da Escola:
+            Coordenação/Orientação Educacional: Procure o coordenador ou orientador educacional da sua escola para relatar casos de violência ocorridos dentro do ambiente escolar.
+            Assistência Psicológica: Verifique se a escola oferece suporte psicológico e agende uma conversa com o psicólogo escolar.
+            Canal de Denúncia Anônima: Algumas escolas oferecem canais de denúncia anônima que podem ser usados para relatar casos de violência ou assédio.
+        </article>
 
-        Formas de Contato e Apoio Dentro da Escola:
-        Coordenação/Orientação Educacional: Procure o coordenador ou orientador educacional da sua escola para relatar casos de violência ocorridos dentro do ambiente escolar.
-        Assistência Psicológica: Verifique se a escola oferece suporte psicológico e agende uma conversa com o psicólogo escolar.
-        Canal de Denúncia Anônima: Algumas escolas oferecem canais de denúncia anônima que podem ser usados para relatar casos de violência ou assédio.
+        <article>
+            <h2>Formas de Contato Gerais:</h2>
+            <p>Disque 180: Para orientação e denúncia de violência contra a mulher.</p>
+            <p>Disque 100: Para casos de violência contra crianças, adolescentes, idosos, pessoas com deficiência e outros grupos vulneráveis.</p>
+            <p>Centro de Valorização da Vida (CVV): Ligue para 188 para apoio emocional gratuito, disponível 24 horas por dia.</p>
+            <p>Delegacia de Polícia: Em situações que não são emergenciais, você pode registrar um boletim de ocorrência em qualquer delegacia.</p>
+        </article>
 
-        Formas de Contato Gerais:
-        Disque 180: Para orientação e denúncia de violência contra a mulher.
-        Disque 100: Para casos de violência contra crianças, adolescentes, idosos, pessoas com deficiência e outros grupos vulneráveis.
-        Centro de Valorização da Vida (CVV): Ligue para 188 para apoio emocional gratuito, disponível 24 horas por dia.
-        Delegacia de Polícia: Em situações que não são emergenciais, você pode registrar um boletim de ocorrência em qualquer delegacia.
+        <article>
+            <h2>Passos a Seguir:</h2>
+            <p>Converse com alguém de confiança: Se ainda não se sente pronto(a) para agir, compartilhar suas preocupações com um amigo ou familiar pode ajudar a encontrar coragem e apoio.</p>
+            <p>Consulte um advogado: Se tiver dúvidas sobre seus direitos ou sobre como proceder legalmente, busque orientação jurídica, seja por meio de um advogado particular ou da Defensoria Pública.</p>
+        </article>
 
-        Passos a Seguir:
-        Converse com alguém de confiança: Se ainda não se sente pronto(a) para agir, compartilhar suas preocupações com um amigo ou familiar pode ajudar a encontrar coragem e apoio.
-        Consulte um advogado: Se tiver dúvidas sobre seus direitos ou sobre como proceder legalmente, busque orientação jurídica, seja por meio de um advogado particular ou da Defensoria Pública.
-
-        Dicas Finais:
-        Educação e Prevenção: Informe-se sobre os recursos disponíveis para prevenir e lidar com a violência. Conhecimento é poder, e entender suas opções é o primeiro passo para tomar controle da situação.
-        Rede de Apoio: Identifique pessoas e instituições que podem oferecer suporte. Ter uma rede de apoio é fundamental para atravessar momentos difíceis.
-        </p>
+        <article>
+            <h2>Dicas Finais:</h2>
+            <p>Educação e Prevenção: Informe-se sobre os recursos disponíveis para prevenir e lidar com a violência. Conhecimento é poder, e entender suas opções é o primeiro passo para tomar controle da situação.</p>
+            <p>Rede de Apoio: Identifique pessoas e instituições que podem oferecer suporte. Ter uma rede de apoio é fundamental para atravessar momentos difíceis.</p>
+        </article>
+        
     </section>
 
     <footer>
