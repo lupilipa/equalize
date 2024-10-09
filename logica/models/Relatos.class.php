@@ -17,9 +17,22 @@ class Relatos{
     }
     public function listarRelatos() {
         $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
-        $sql = "SELECT relatos.id_relato, usuarios.nome, relatos.relato, relatos.disponibilizado
+        $sql = "SELECT relatos.id_relato, usuarios.nome, relatos.relato, relatos.data, relatos.horario, relatos.disponibilizado
                 FROM relatos 
                 INNER JOIN usuarios ON relatos.id_usuario = usuarios.id_usuario 
+                ORDER BY relatos.id_relato DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarRelatosDisp() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT usuarios.nome, relatos.relato
+                FROM relatos 
+                INNER JOIN usuarios ON relatos.id_usuario = usuarios.id_usuario AND relatos.disponibilizado = 1
                 ORDER BY relatos.id_relato DESC";
 
         $stmt = $pdo->prepare($sql);

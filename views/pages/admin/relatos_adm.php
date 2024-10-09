@@ -52,6 +52,8 @@ $relatos = $controller->listarRelatos();
                     <tr>
                         <th>Nome do Usuário</th>
                         <th>Relato</th>
+                        <th>Data</th>
+                        <th>Horário</th>
                         <th>Ação</th>
                         <th>Disponibilizar</th>
                     </tr>
@@ -61,6 +63,8 @@ $relatos = $controller->listarRelatos();
                         <tr>
                             <td><?= htmlspecialchars($row['nome']) ?></td>
                             <td><?= htmlspecialchars($row['relato']) ?></td>
+                            <td><?= htmlspecialchars($row['data']) ?></td>
+                            <td><?= htmlspecialchars($row['horario']) ?></td>
                             <td><?php if($row['disponibilizado'] == 1) { echo "Mostrando";} else { echo "Oculto";} ?></td>
                             <?php if($row['disponibilizado'] == 1) {
                                     echo "<td><button onclick='abrirOcultar(" . $row['id_relato'] . ")'>Ocultar</button></td>";

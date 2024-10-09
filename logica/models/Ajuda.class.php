@@ -154,4 +154,28 @@ class Ajuda{
         
     }
 
+    public function listarAjudaDigital() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_digital 
+                INNER JOIN usuarios ON violencia_digital.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_digital.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarDigitalModal($id_digital) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_digital 
+                INNER JOIN usuarios ON violencia_digital.id_usuario = usuarios.id_usuario AND id_violencia = :id_digital";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_digital', $id_digital, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
 }

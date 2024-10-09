@@ -154,3 +154,18 @@ if(isset($_POST['ajuda_verbal'])){
     $ajudas->armazenarAjudaVerbal($id_usuario, $xingado, $frequencia, $agressor, $afeta_saude, $ja_pediu, $ja_conversou, $data, $horario);
 
 }
+
+if (isset($_GET['id_digital'])) {
+    $id_digital = $_GET['id_digital'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarDigitalModal($id_digital);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+} 
+
+?>

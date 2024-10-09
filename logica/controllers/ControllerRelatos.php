@@ -12,8 +12,8 @@ if(isset($_POST['enviar_relato'])){
     $data = date('Y-m-d');
     $horario = date('H:i:s');
 
-    $relato = new Relatos(); // Passe a instância de PDO ao controller
-    $relato->inserirRelato($id_usuario, $relato, $data, $horario);
+    $relatos = new Relatos(); // Passe a instância de PDO ao controller
+    $relatos->inserirRelato($id_usuario, $relato, $data, $horario);
 
 }
 

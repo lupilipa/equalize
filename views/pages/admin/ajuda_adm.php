@@ -34,7 +34,15 @@
     </header>
     
     <section>
-        <h1>Ajuda: ADM</h1>
+        <h1>Gerar Relatório de Ajuda</h1>      
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_fisica.php">Pedido de Ajuda: Violência Física</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_psicologica.php">Pedido de Ajuda: Violência Psicológica</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_sexual.php">Pedido de Ajuda: Violência Sexual</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_financeira.php">Pedido de Ajuda: Violência Financeira</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_verbal.php">Pedido de Ajuda: Violência Verbal</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_moral.php">Pedido de Ajuda: Violência Moral</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_institucional.php">Pedido de Ajuda: Violência Institucional</a></br>
+        <a class="btn-menu" href="ajuda_relatorio/ajuda_digital.php">Pedido de Ajuda: Violência Digital</a></br>
     </section>
 
     <footer>

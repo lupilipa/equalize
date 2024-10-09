@@ -1,3 +1,10 @@
+<?php
+require('../../../logica/models/Relatos.class.php'); 
+
+$controller = new Relatos(); 
+$relatos = $controller->listarRelatosDisp();  
+?> 
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -8,6 +15,7 @@
     <title>Relatos - Equalize</title>
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/table.css">
 
 </head>
 
@@ -38,6 +46,24 @@
     <section>
         <h1>Relatos</h1>
         <a class="btn-menu" href="relatos_relatar.php">Enviar meu relato</a></br>
+        <div class="table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Nome do Usuário</th>
+                        <th>Relato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($relatos as $row): ?>
+                        <tr>
+                            <td><?= htmlspecialchars($row['nome']) ?></td>
+                            <td><?= htmlspecialchars($row['relato']) ?></td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <footer>

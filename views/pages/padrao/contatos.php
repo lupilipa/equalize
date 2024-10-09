@@ -21,7 +21,7 @@
         <nav id="menu-links">
             <ul>
                 <li><a class="btn-menu" href="../autenticacao/login.php">Login</a></li>
-                <li><a class="btn-menu" href="../index.php">Página Inicial</a></li>
+                <li><a class="btn-menu" href="../../index.php">Página Inicial</a></li>
                 <li><a class="btn-menu" href="identificar/como_identificar.php">Como identificar?</a></li>
                 <li><a class="btn-menu" href="../autenticacao/login.php">Pedir Ajuda</a></li>
                 <li><a class="btn-menu" href="relatos_ver.php">Relatos</a></li>
