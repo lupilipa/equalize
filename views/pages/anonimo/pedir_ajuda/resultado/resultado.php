@@ -35,13 +35,13 @@
         </div>
     </header>
 
-    <section>  
+    <main>  
         <h1>O que você quer fazer?</h1>
         <div class="modal_ajuda">
          <a class="btn-menu" href="ajuda_imediata.php">Ajuda imediata</a></br>
          <a class="btn-menu" href="somente_informar.php">Quero me informar</a></br>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

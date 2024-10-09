@@ -33,7 +33,7 @@
         </div>
     </header>
     
-    <section>
+    <main>
         <h1>Gerar Relatório de Ajuda</h1>      
         <a class="btn-menu" href="ajuda_relatorio/ajuda_fisica.php">Pedido de Ajuda: Violência Física</a></br>
         <a class="btn-menu" href="ajuda_relatorio/ajuda_psicologica.php">Pedido de Ajuda: Violência Psicológica</a></br>
@@ -43,7 +43,7 @@
         <a class="btn-menu" href="ajuda_relatorio/ajuda_moral.php">Pedido de Ajuda: Violência Moral</a></br>
         <a class="btn-menu" href="ajuda_relatorio/ajuda_institucional.php">Pedido de Ajuda: Violência Institucional</a></br>
         <a class="btn-menu" href="ajuda_relatorio/ajuda_digital.php">Pedido de Ajuda: Violência Digital</a></br>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

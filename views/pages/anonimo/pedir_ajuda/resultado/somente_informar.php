@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <section>  
+    <main>  
         <h1>Me informar melhor</h1>
         <p>Como lidar com situações de violência?
 
@@ -67,7 +67,7 @@
         Educação e Prevenção: Informe-se sobre os recursos disponíveis para prevenir e lidar com a violência. Conhecimento é poder, e entender suas opções é o primeiro passo para tomar controle da situação.
         Rede de Apoio: Identifique pessoas e instituições que podem oferecer suporte. Ter uma rede de apoio é fundamental para atravessar momentos difíceis.
         </p>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

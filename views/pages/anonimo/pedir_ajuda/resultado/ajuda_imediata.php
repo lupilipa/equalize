@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <section>  
+    <main>  
         <h1>Ajuda Imediata</h1>
         <p>Precisa de Ajuda Imediata? Saiba o Que Fazer Agora!
 
@@ -63,7 +63,7 @@
 
         Lembre-se: Você não está sozinho(a). Existem recursos e pessoas prontas para ajudar você a se proteger e garantir seus direitos. A segurança é a prioridade agora. Aja rapidamente e busque o apoio necessário!
         </p>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">
