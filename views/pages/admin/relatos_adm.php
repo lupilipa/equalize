@@ -15,7 +15,7 @@ $relatos = $controller->listarRelatos();
     <title>Relatos - Equalize</title>
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/table.css">
 
 </head>
@@ -113,7 +113,7 @@ $relatos = $controller->listarRelatos();
     </footer>
     
     <script src="../../js/fade.js"></script>
-    <script src="../../js/script.js"></script>
+    <script src="../../js/relatos.js"></script>
 
 </body>
 

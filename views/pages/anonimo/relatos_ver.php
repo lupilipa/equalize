@@ -44,7 +44,9 @@ $relatos = $controller->listarRelatosDisp();
     </header>
 
     <section>
-        <h1>Relatos</h1>
+        <div class="titulo">
+            <h1>Relatos</h1>
+        </div>
         <a class="btn-menu" href="relatos_relatar.php">Enviar meu relato</a></br>
         <div class="table">
             <table id="table">

@@ -8,7 +8,7 @@
     <title>Como identificar? - Equalize</title>
     <link rel="icon" href="../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../css/style.css">
-
+    <link rel="stylesheet" href="../../../css/identificar.css">
 </head>
 
 <body>
@@ -31,21 +31,90 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Como identificar?</h1>      
-        <a class="btn-menu" href="violencias/violencia_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/violencia_psicologica.php">Violência Psicológica</a></br>
-        <a class="btn-menu" href="violencias/violencia_sexual.php">Violência Sexual</a></br>
-        <a class="btn-menu" href="violencias/violencia_financeira.php">Violência Financeira</a></br>
-        <a class="btn-menu" href="violencias/violencia_verbal.php">Violência Verbal</a></br>
-        <a class="btn-menu" href="violencias/violencia_moral.php">Violência Moral</a></br>
-        <a class="btn-menu" href="violencias/violencia_institucional.php">Violência Institucional</a></br>
-        <a class="btn-menu" href="violencias/violencia_digital.php">Violência Digital</a></br>
-    </section>
+    <main>  
+        <div class="titulo">
+            <h1>Como identificar?</h1>
+        </div>
+        <p>clique para acessar.</p>
+        <div class="posts">
+            <a class="btn-menu" href="violencias/violencia_fisica.php">
+                <article>
+                    <h2>Violência Física</h2>
+                    <p>Qualquer ato que cause dano físico a outra pessoa, como empurrões, socos, chutes, queimaduras, e outras formas de ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/fisica.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/fisica.jpg" alt="violencia-fisica"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_psicologica.php">
+                <article>
+                    <h2>Violência Psicologica</h2>
+                    <p>É uma forma de abuso que visa causar dano emocional ou psicológico, como humilhação, manipulação, intimidação, chantagem, ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/psicologica.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/psicologica.jpg" alt="violencia-psicologica"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_sexual.php">
+                <article>
+                    <h2>Violência Sexual</h2>
+                    <p>Envolve qualquer ato sexual realizado sem o consentimento da outra pessoa, como estupro, abuso sexual, ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/sexual.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/sexual.jpg" alt="violencia-sexual"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_financeira.php">
+                <article>
+                    <h2>Violência Financeira</h2>
+                    <p>É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/financeira.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/financeira.jpg" alt="violencia-financeira"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_verbal.php">
+                <article>
+                    <h2>Violência Verbal</h2>
+                    <p>Esta inclui agressões por meio de palavras proferidas pelas pessoas, como insultos, ameaças, humilhações, ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/verbal.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/verbal.jpg" alt="violencia-verbal"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_moral.php">
+                <article>
+                    <h2>Violência Moral</h2>
+                    <p>Consiste em calúnia, difamação, injúria, ou qualquer ato que ofenda a honra ou a dignidade de ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/moral.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/moral.jpg" alt="violencia-moral"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_institucional.php">
+                <article>
+                    <h2>Violência Institucional</h2>
+                    <p>É a violência cometida por instituições, como discriminação, negligência, abuso de poder ou violação de direitos em serviços públicos ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/institucional.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/institucional.jpg" alt="violencia-institucional"> -->
+                    </div>
+                </article>
+            </a>
+            <a class="btn-menu" href="violencias/violencia_digital.php">
+                <article>
+                    <h2>Violência Digital</h2>
+                    <p>Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e ...</p>
+                    <div class="img" style="background: url(../../../media/violencias/digital.jpg); background-size: cover;">
+                        <!-- <img src="../../../media/violencias/digital.jpg" alt="violencia-digital"> -->
+                    </div>
+                </article>
+            </a>
+        </div>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -65,7 +134,7 @@
         </div>
     </footer>
     
-    <script src="../../js/fade.js"></script>
+    <script src="../../../js/fade.js"></script>
     
 </body>
 

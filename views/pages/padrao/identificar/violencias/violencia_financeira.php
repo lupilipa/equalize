@@ -31,22 +31,29 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Financeira</h1>
-        <p>O que é? 
-        É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter independência econômica.  
-        Impactos 
-        Dependência financeira do agressor. Dificuldades econômicas e limitações na qualidade de vida. Diminuição da autoestima e aumento da sensação de impotência.  
-        Como identificar? 
-        Relatos de controle excessivo sobre dinheiro e decisões financeiras. Impedimento de acesso ao próprio salário ou a bens pessoais. Pressão para abandonar o emprego ou oportunidades econômicas.  
-        Estratégias de prevenção 
-        Educação financeira para promover a independência econômica. Apoio jurídico para garantir o acesso aos recursos financeiros. Políticas de proteção econômica para vítimas de violência.  
-        </p>
-    </section>
+    <main>  
+        <article>
+            <div class="titulo">
+                <h1>Violência Financeira - O que é?</h1>
+            </div>
+            <p>É o controle dos recursos financeiros de uma pessoa, impedindo-a de ter acesso ao próprio dinheiro, trabalhar ou ter independência econômica.</p>
+            <img src="../../../../media/violencias/financeira.jpg" alt="Foto ilustrativa">
+        </article>  
+        <article>
+            <h2>Impactos </h2>
+            <p>Dependência financeira do agressor. Dificuldades econômicas e limitações na qualidade de vida. Diminuição da autoestima e aumento da sensação de impotência.</p>
+        </article>
+        <article>
+            <h2>Como identificar? </h2>
+            <p>Relatos de controle excessivo sobre dinheiro e decisões financeiras. Impedimento de acesso ao próprio salário ou a bens pessoais. Pressão para abandonar o emprego ou oportunidades econômicas.  </p>
+        </article>
+        <h2>Estratégias de prevenção </h2>
+        <p>Educação financeira para promover a independência econômica. Apoio jurídico para garantir o acesso aos recursos financeiros. Políticas de proteção econômica para vítimas de violência.  </p>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -67,7 +74,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../../../js/fade.js"></script>
     
 </body>
 

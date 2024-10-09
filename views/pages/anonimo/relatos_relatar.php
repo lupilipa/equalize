@@ -35,7 +35,7 @@
         </div>
     </header>
 
-    <section>
+    <main>
         <div class="titulo">
             <h1>Enviar meu relato</h1>
         </div>
@@ -49,7 +49,7 @@
                 </div>
             </form>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

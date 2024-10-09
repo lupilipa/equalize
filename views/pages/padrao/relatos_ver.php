@@ -43,8 +43,10 @@ $relatos = $controller->listarRelatosDisp();
         </div>
     </header>
 
-    <section>
-        <h1>Relatos</h1>
+    <main>
+        <div class="titulo">
+            <h1>Relatos</h1>
+        </div>
         <a class="btn-menu" href="../autenticacao/login.php">Enviar meu relato</a></br>
         <div class="table">
             <table id="table">
@@ -64,7 +66,7 @@ $relatos = $controller->listarRelatosDisp();
                 </tbody>
             </table>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

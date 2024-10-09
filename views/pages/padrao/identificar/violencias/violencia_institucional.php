@@ -31,22 +31,25 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Institucional</h1>
-        <p>O que é? 
-        É a violência cometida por instituições, como discriminação, negligência, abuso de poder ou violação de direitos em serviços públicos ou privados.  
-        Impactos 
-        Desconfiança nas instituições e nos serviços oferecidos. Exclusão social e dificuldade de acesso a direitos básicos. Traumas e impactos emocionais decorrentes do abuso de poder.  
-        Como identificar? 
-        Relatos de tratamento discriminatório ou desumano em instituições. Negligência ou omissão de atendimento adequado. Observação de práticas abusivas ou ilegais dentro de instituições.  
-        Estratégias de prevenção 
-        Fiscalização e regulamentação das práticas institucionais. Treinamento de profissionais sobre direitos humanos e ética. Estabelecimento de canais de denúncia e proteção contra abusos institucionais.  
-        </p>
-    </section>
+    <main> 
+        <article>
+            <div class="titulo">
+                <h1>Violência Institucional - O que é?</h1>
+            </div>
+            <p>É a violência cometida por instituições, como discriminação, negligência, abuso de poder ou violação de direitos em serviços públicos ou privados.</p>
+            <img src="../../../../media/violencias/institucional.jpg" alt="Foto ilustrativa">
+            <h2>Impactos</h2>
+            <p>Desconfiança nas instituições e nos serviços oferecidos. Exclusão social e dificuldade de acesso a direitos básicos. Traumas e impactos emocionais decorrentes do abuso de poder.  </p>
+            <h2>Como identificar?</h2>
+            <p>Relatos de tratamento discriminatório ou desumano em instituições. Negligência ou omissão de atendimento adequado. Observação de práticas abusivas ou ilegais dentro de instituições.  </p>
+            <h2>Estratégias de prevenção</h2>
+            <p>Fiscalização e regulamentação das práticas institucionais. Treinamento de profissionais sobre direitos humanos e ética. Estabelecimento de canais de denúncia e proteção contra abusos institucionais.</p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -67,7 +70,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../../../js/fade.js"></script>
     
 </body>
 

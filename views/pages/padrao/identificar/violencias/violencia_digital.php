@@ -31,22 +31,31 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Digital</h1>
-        <p>O que é? 
-        Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e assédio online.  
-        Impactos 
-        Ansiedade, depressão e estresse devido à exposição ou assédio. Dano à reputação pessoal e profissional. Sentimento de insegurança no uso de tecnologias.  
-        Como identificar? 
-        Relatos de ameaças, humilhações, ou exposição de informações pessoais online. Presença de comportamentos agressivos e invasivos nas redes sociais. Medo ou relutância em usar dispositivos digitais.  
-        Estratégias de prevenção 
-        Educação digital sobre segurança e privacidade online. Implementação de leis contra crimes cibernéticos e assédio digital. Criação de espaços seguros online e suporte para vítimas de violência digital.  
-        </p>
-    </section>
+    <main>  
+        <article>
+            <titulo>
+                <h1>Violência Digital - O que é?</h1>
+            </titulo>
+            <p>Envolve o uso de tecnologias para causar dano, como cyberbullying, exposição indevida, invasão de privacidade, e assédio online.</p>
+            <img src="../../../../media//violencias/digital.jpg" alt="Foto ilustrativa">
+        </article>
+        <article>
+            <h2>Impactos</h2>
+            <p>Ansiedade, depressão e estresse devido à exposição ou assédio. Dano à reputação pessoal e profissional. Sentimento de insegurança no uso de tecnologias.  </p>
+        </article>
+        <article>
+            <h2>Como identificar? </h2>
+            <p>Relatos de ameaças, humilhações, ou exposição de informações pessoais online. Presença de comportamentos agressivos e invasivos nas redes sociais. Medo ou relutância em usar dispositivos digitais.  </p>
+        </article>
+        <article>
+            <h2>Estratégias de prevenção </h2>
+            <p>Educação digital sobre segurança e privacidade online. Implementação de leis contra crimes cibernéticos e assédio digital. Criação de espaços seguros online e suporte para vítimas de violência digital.</p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -67,7 +76,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../../../js/fade.js"></script>
     
 </body>
 

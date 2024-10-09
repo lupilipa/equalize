@@ -64,17 +64,3 @@ footer {
 	bottom: 0;
 	left: 0;
 }
-
-.paleta { color: rgb(35, 17, 35); }
-.paleta { color: rgb(130, 32, 74); }
-.paleta { color: rgb(142, 166, 4); }
-.paleta { color: rgb(255, 159, 28); }
-.paleta { color: rgb(235, 214, 235); }
-.paleta { color: rgb(248, 241, 248); }
-
-.paleta { color: hsl(300, 35%, 10%); }
-.paleta { color: hsl(334, 60%, 32%); }
-.paleta { color: hsl(69, 95%, 33%); }
-.paleta { color: hsl(35, 100%, 55%); }
-.paleta { color: hsl(300, 34%, 88%); }
-.paleta { color: hsl(300, 33%, 96%); }

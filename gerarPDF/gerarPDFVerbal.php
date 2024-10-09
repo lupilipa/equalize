@@ -1,6 +1,6 @@
 <?php
-
-require('../fpdf/fpdf.php');
+$caminho = __DIR__;
+require($caminho . '\..\fpdf\fpdf.php');
 require('../logica/models/Ajuda.class.php'); 
 
 // Criando uma instância da classe Ajuda

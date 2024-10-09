@@ -1,0 +1,25 @@
+select {
+    padding: 5px;
+    background: var(--rosa-claro);
+    border: 1px solid var(--cor-branco);
+}
+
+button {
+    position: relative;
+    margin-top: 15px;
+    padding: 10px 45px;
+    border-radius: 9px;
+    background: var(--rosa-claro);
+    border: .5px;
+}
+
+button::after {
+    content: "Clique neste botão para prosseguir:";
+    position: absolute;
+    display: block;
+    top: -20px;
+    left: 0;
+    width: 255px;
+    font-size: 16px;
+    color: var(--cor-preto);
+}

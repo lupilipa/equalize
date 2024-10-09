@@ -8,6 +8,12 @@
     <title>Pedir Ajuda - Equalize</title>
     <link rel="icon" href="../../../media/logos.png" type="image/png">
     <link rel="stylesheet" href="../../../css/style.css">
+    <style>
+        .link-ajuda-violencia {
+            color: black;
+            font-weight: bold;
+        }
+    </style>
 
 </head>
 
@@ -31,22 +37,74 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
     
-    <section>
-        <h1>Pedir Ajuda</h1>
-        <a class="btn-menu" href="violencias/ajuda_fisica.php">Violência Física</a></br>
-        <a class="btn-menu" href="violencias/ajuda_psicologica.php">Violência Psicológica</a></br>
-        <a class="btn-menu" href="violencias/ajuda_sexual.php">Violência Sexual</a></br>
-        <a class="btn-menu" href="violencias/ajuda_financeira.php">Violência Financeira</a></br>
-        <a class="btn-menu" href="violencias/ajuda_verbal.php">Violência Verbal</a></br>
-        <a class="btn-menu" href="violencias/ajuda_moral.php">Violência Moral</a></br>
-        <a class="btn-menu" href="violencias/ajuda_institucional.php">Violência Institucional</a></br>
-        <a class="btn-menu" href="violencias/ajuda_digital.php">Violência Digital</a></br>
-        <a class="btn-menu" href="ajuda_identificar.php">Não sei identificar</a></br>
-    </section>
+    <main>
+        <div class="titulo">
+            <h1>Pedir Ajuda</h1>
+        </div>
+        <section>
+            <article>
+                <h2>Não sabe qual violência foi praticada?</h2>
+                <p>Saiba mais sobre os <strong>tipos de violência</strong> <a href="ajuda_identificar.php">aqui</a> e peça uma ajuda de forma mais específica.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Clique em algum link:</h2>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_fisica.php">Violência Física</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como física.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_psicologica.php">Violência Psicologica</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como psicologica.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_sexual.php">Violência Sexual</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como sexual.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_financeira.php">Violência Financeira</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como financeira.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_verbal.php">Violência Verbal</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como verbal.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_moral.php">Violência Moral</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como moral.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_institucional.php">Violência Institucional</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como institucional.</p>
+                </div>
+                <div class="link-ajuda">
+                    <p>
+                        <a class="btn-menu link-ajuda-violencia" href="violencias/ajuda_digital.php">Violência Digital</a>
+                    </p>
+                    <p>Caso a violência em questão se caracterize como digital.</p>
+                </div>
+            </article>
+        </section>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -66,7 +124,7 @@
         </div>
     </footer>
     
-    <script src="../../js/fade.js"></script>
+    <script src="../../../js/fade.js"></script>
 
 </body>
 

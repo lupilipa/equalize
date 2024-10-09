@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 :root {
+    /* fonts */
+    --font-body: Poppins, Ubuntu, sans-serif;
     /* para celulares (somente cor): */
     --cor-bg-header: #cc70cc;
     --cor-bg-nav: #b362b3;
     --cor-bg-nav-item-hover: #aa60aa;
     --cor-bg-nav-sub: #aa63aa;
     --cor-bg-h1-header: #0000006e;
+    --cor-strong: #492249;
     --cor-bg-main: #f9fdff;
     --cor-bg-fade: #0000008a; 
     --cor-branco: white;
@@ -18,6 +21,10 @@
     --laranja: #FF9F1C;
     --rosa-claro: #EBD6EB;
     --background: #F8F1F8;
+    --cor-heading: #cc70cc;
+    --cor-heading-h3: #965096;
+    --cor-btn-login: #aa60aa;
+    --cor-link-login: #aa60aa;
 }
 
 * {
@@ -27,7 +34,7 @@
 }
 
 body {
-    font-family: Poppins, Ubuntu, sans-serif;
+    font-family: var(--font-body);
     overflow-x: hidden;
 }
 
@@ -94,11 +101,11 @@ header #menuHambId:checked ~ .container .hamburger::after {
 header nav {
     position: fixed;
     top: 0;
-    left: -72%;
+    left: -77%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 230px;
     height: 100vh;
     background: var(--cor-bg-nav);
     text-align: center;
@@ -118,7 +125,7 @@ header .fade {
 }
 
 header #menuHambId:checked ~ nav {
-    transform: translateX(100%);
+    transform: translateX(104%);
 }
 
 header #menuHambId:checked ~ .fade {
@@ -132,7 +139,7 @@ header nav ul {
 header nav li {
     display: flex;
     align-items: center;
-    min-height: 60px;
+    height: 60px;
     width: 100%;
     padding-left: 40px;
     list-style: none;
@@ -161,13 +168,19 @@ header .titulo {
     color: var(--cor-branco);
 }
 
-header .titulo h1 {
+header .titulo h1,
+.titulo h1,
+header .titulo p {
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
     font-weight: bold;
     unicode-bidi: isolate;
 }
+
+header .titulo p {
+    font-size: 2em;
+} 
 
 header .titulo-pagina h2,
 main .titulo-pagina h2 {
@@ -177,12 +190,52 @@ main .titulo-pagina h2 {
     unicode-bidi: isolate;
 }
 
-section {
-    justify-content: center;
+body {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    background: var(--background);
+}
+
+main {
+    padding: 10px;
+    max-width: 1000px;
+}
+
+main h1 {
+    font-size: 1.7em;
+}
+
+main h1, 
+main h2 {
+    color: var(--cor-heading);
+
+}
+
+main article h2 {
+    margin-top: 15px;
+} 
+
+main article h3 {
+    margin-top: 7px;
+    color: var(--cor-heading-h3);
+}
+
+main article:nth-child(1) img {
+    display: block;
     width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+main strong {
+    color: var(--cor-strong);
+}
+
+main article blockquote {
+    margin: 7px 0;
+    padding-left: 10px;
+    border-left: 4px solid var(--roxo-claro);
+    font-style: italic;
 }
 
 footer {
@@ -215,4 +268,153 @@ footer .paginas ul li {
 footer .paginas a {
     text-decoration: none;
     color: var(--cor-branco);
+}
+
+@media screen and (min-width: 370px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(111%);
+    }
+}
+
+@media screen and (min-width: 390px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(115%);
+    }
+}
+
+@media screen and (min-width: 414px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(131%);
+    }
+}
+
+@media screen and (min-width: 512px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(150%);
+    }
+}
+
+/* Breakpoint para dispositivos um pouco maiores (tablet) */
+@media screen and (min-width: 600px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(175%);
+    }
+}
+
+@media screen and (min-width: 712px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(210%);
+    }
+}
+
+/* Para tablets e dispositivos maiores (768px) */
+@media screen and (min-width: 768px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(226%); 
+    }
+}
+
+@media screen and (min-width: 812px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(240%);
+    }
+}
+
+
+@media screen and (min-width: 912px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(270%);
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(300%);
+    }
+}
+
+/* Para telas grandes (1024px ou mais) */
+@media screen and (min-width: 1024px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(306%);
+    }
+}
+
+@media screen and (min-width: 1052px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(320%);
+    }
+}
+
+@media screen and (min-width: 1102px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(330%);
+    }
+}
+
+@media screen and (min-width: 1132px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(343%);
+    }
+}
+
+@media screen and (min-width: 1172px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(353%);
+    }
+}
+
+@media screen and (min-width: 1172px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(353%);
+    }
+}
+
+@media screen and (min-width: 1202px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(362%);
+    }
+}
+
+@media screen and (min-width: 1232px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(372%);
+    }
+}
+
+@media screen and (min-width: 1272px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(382%);
+    }
+}
+
+/* Para desktops grandes (1280px ou mais) */
+@media screen and (min-width: 1280px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(380%);
+    }
+}
+
+@media screen and (min-width: 1292px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(392%);
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(400%);
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(410%);
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    header #menuHambId:checked ~ nav {
+        transform: translateX(420%);
+    }
 }

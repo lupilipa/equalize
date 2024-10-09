@@ -31,22 +31,25 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
+            <p>Equalize</p>
         </div>
     </header>
 
-    <section>  
-        <h1>Violência Verbal</h1>
-        <p>O que é? 
-        Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.  
-        Impactos 
-        Baixa autoestima e insegurança. Desenvolvimento de problemas de saúde mental como ansiedade e depressão. Dificuldades em relacionamentos interpessoais.  
-        Como identificar? 
-        Relatos de insultos frequentes, ameaças ou humilhação. Mudanças comportamentais como retraimento ou agressividade. Presença de um ambiente de comunicação hostil.  
-        Estratégias de prevenção 
-        Promoção de habilidades de comunicação não violenta. Intervenções educativas sobre o impacto da violência verbal. Campanhas de conscientização para mudança de comportamento. 
-        </p>
-    </section>
+    <main>  
+        <article>
+            <div class="titulo">
+                <h1>Violência Verbal - O que é?</h1>
+            </div>
+            <p>Inclui agressões por meio de palavras, como insultos, ameaças, humilhações, e xingamentos.</p>
+            <img src="../../../../media/violencias/verbal.jpg" alt="Foto ilustrativa">
+            <h2>Impactos</h2>
+            <p>Baixa autoestima e insegurança. Desenvolvimento de problemas de saúde mental como ansiedade e depressão. Dificuldades em relacionamentos interpessoais.</p>
+            <h2>Como identificar?</h2>
+            <p>Relatos de insultos frequentes, ameaças ou humilhação. Mudanças comportamentais como retraimento ou agressividade. Presença de um ambiente de comunicação hostil.</p>
+            <h2>Estratégias de prevenção</h2>
+            <p>Promoção de habilidades de comunicação não violenta. Intervenções educativas sobre o impacto da violência verbal. Campanhas de conscientização para mudança de comportamento.</p>
+        </article>
+    </main>
 
     <footer>
         <div class="copyright">
@@ -67,7 +70,7 @@
         </div>
     </footer>
     
-    <script src="js/fade.js"></script>
+    <script src="../../../../js/fade.js"></script>
     
 </body>
 

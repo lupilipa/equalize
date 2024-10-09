@@ -8,8 +8,8 @@
     <title>Home - Equalize</title>
     <link rel="icon" href="../../media/logos.png" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/index.css">
 
 </head>
 
@@ -33,15 +33,14 @@
         </nav>
         <div class="fade"></div>
         <div class="titulo">
-            <h1>Equalize</h1>
-            <h2>Home</h2>
+            <p>Equalize</p>
         </div>
     </header>
     
     <main>
         <div class="titulo">
             <h1>Navegue pelo site equalize</h1>
-            <p>Clique em algum tópico de seu interesse e seja redirecionado para a página desejada.</p>
+            <p>Clique eum algum tópico de seu interesse e seja redirecionado para a página desejada.</p>
         </div>
             <div class="posts">
                 <a class="btn-menu" href="igualdade.php">
