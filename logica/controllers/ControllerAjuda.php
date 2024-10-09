@@ -166,6 +166,97 @@ if (isset($_GET['id_digital'])) {
     } else {
         echo json_encode(['error' => 'Ajuda não encontrada']);
     }
-} 
+}
+
+if (isset($_GET['id_financeira'])) {
+    $id_financeira = $_GET['id_financeira'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarFinanceiraModal($id_financeira);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_fisica'])) {
+    $id_fisica = $_GET['id_fisica'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarFisicaModal($id_fisica);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_institucional'])) {
+    $id_institucional = $_GET['id_institucional'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarInstitucionalModal($id_institucional);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_moral'])) {
+    $id_moral = $_GET['id_moral'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarMoralModal($id_moral);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_psicologica'])) {
+    $id_psicologica = $_GET['id_psicologica'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarPsicologicaModal($id_psicologica);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_sexual'])) {
+    $id_sexual = $_GET['id_sexual'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarSexualModal($id_sexual);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
+
+if (isset($_GET['id_verbal'])) {
+    $id_verbal = $_GET['id_verbal'];
+
+    $ajuda  = new Ajuda();
+    $ajudaDetalhes = $ajuda->listarVerbalModal($id_verbal);
+
+    if ($ajudaDetalhes) {
+        echo json_encode($ajudaDetalhes);
+    } else {
+        echo json_encode(['error' => 'Ajuda não encontrada']);
+    }
+}
 
 ?>

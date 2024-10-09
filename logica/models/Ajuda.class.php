@@ -178,4 +178,172 @@ class Ajuda{
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    public function listarAjudaFinanceira() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_financ 
+                INNER JOIN usuarios ON violencia_financ.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_financ.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarFinanceiraModal($id_financeira) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_financ 
+                INNER JOIN usuarios ON violencia_financ.id_usuario = usuarios.id_usuario AND id_violencia = :id_financeira";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_financeira', $id_financeira, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaFisica() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_fisica 
+                INNER JOIN usuarios ON violencia_fisica.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_fisica.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarFisicaModal($id_fisica) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_fisica 
+                INNER JOIN usuarios ON violencia_fisica.id_usuario = usuarios.id_usuario AND id_violencia = :id_fisica";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_fisica', $id_fisica, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaInstitucional() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_insti 
+                INNER JOIN usuarios ON violencia_insti.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_insti.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarInstitucionalModal($id_institucional) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_insti 
+                INNER JOIN usuarios ON violencia_insti.id_usuario = usuarios.id_usuario AND id_violencia = :id_institucional";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_institucional', $id_institucional, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaMoral() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_moral 
+                INNER JOIN usuarios ON violencia_moral.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_moral.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarMoralModal($id_moral) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_moral 
+                INNER JOIN usuarios ON violencia_moral.id_usuario = usuarios.id_usuario AND id_violencia = :id_moral";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_moral', $id_moral, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaPsicologica() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_psico 
+                INNER JOIN usuarios ON violencia_psico.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_psico.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarPsicologicaModal($id_psicologica) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_psico 
+                INNER JOIN usuarios ON violencia_psico.id_usuario = usuarios.id_usuario AND id_violencia = :id_psicologica";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_psicologica', $id_psicologica, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaSexual() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_sexual 
+                INNER JOIN usuarios ON violencia_sexual.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_sexual.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarSexualModal($id_sexual) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_sexual 
+                INNER JOIN usuarios ON violencia_sexual.id_usuario = usuarios.id_usuario AND id_violencia = :id_sexual";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_sexual', $id_sexual, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function listarAjudaVerbal() {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_verbal 
+                INNER JOIN usuarios ON violencia_verbal.id_usuario = usuarios.id_usuario 
+                ORDER BY violencia_verbal.id_violencia DESC";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function listarVerbalModal($id_verbal) {
+        $pdo = new PDO("mysql:host=localhost;dbname=equalize", "root", "");
+        $sql = "SELECT *
+                FROM violencia_verbal 
+                INNER JOIN usuarios ON violencia_verbal.id_usuario = usuarios.id_usuario AND id_violencia = :id_verbal";
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':id_verbal', $id_verbal, PDO::PARAM_INT);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
 }

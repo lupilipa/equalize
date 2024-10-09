@@ -57,5 +57,5 @@ foreach ($dadosAjuda as $row) {
 }
 
 // Saída do PDF no navegador (sem download)
-$pdf->Output('I', 'relatorio_ajuda.pdf');
+$pdf->Output('I', 'relatorio_ajuda_digital.pdf');
 ?>

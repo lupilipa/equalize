@@ -2,7 +2,7 @@
 require('../../../../logica/models/Ajuda.class.php'); 
 
 $controller = new Ajuda(); 
-$ajuda = $controller->listarAjudaDigital();  
+$ajuda = $controller->listarAjudaInstitucional();  
 ?>
 
 <!DOCTYPE html>
@@ -44,8 +44,8 @@ $ajuda = $controller->listarAjudaDigital();
     
     <section>
         <div class="titulo">
-            <h1>Pedido de Ajuda: Violência Digital</h1>
-            <button onclick="window.open('../../../../gerarPDF/gerarPDFDigital.php')">Gerar PDF</button>
+            <h1>Pedido de Ajuda: Violência Institucional</h1>
+            <button onclick="window.open('../../../../gerarPDF/gerarPDFInst.php')">Gerar PDF</button>
         </div>
         <div class="table">
             <table id="table">
@@ -64,14 +64,14 @@ $ajuda = $controller->listarAjudaDigital();
                             <td><?= htmlspecialchars($row['nome']) ?></td>
                             <td><?= htmlspecialchars($row['data']) ?></td>
                             <td><?= htmlspecialchars($row['horario']) ?></td>
-                            <td><button onclick="abrirModalDigital(<?php echo $row['id_violencia']; ?>)">Ver Detalhes</button></td>
+                            <td><button onclick="abrirModalInstitucional(<?php echo $row['id_violencia']; ?>)">Ver Detalhes</button></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
             </table>
         </div>
 
-        <div id="modalDigital" class="modal">
+        <div id="modalInstitucional" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="fecharModal()">&times;</span>
                 <h2>Detalhes da Ajuda</h2>
@@ -79,18 +79,18 @@ $ajuda = $controller->listarAjudaDigital();
                 <p id="idViolencia"></p>
                 <h3>Nome do Usuário:</h3>
                 <p id="nomeUser"></p>
-                <h3>Você já foi vítima de cyberbullying, exposição indevida ou invasão de privacidade?</h3>
-                <p id="vitima"></p>
-                <h3>Com que frequência você é alvo de comportamentos agressivos online?</h3>
-                <p id="frequencia"></p>
-                <h3>Quem são os agressores?</h3>
-                <p id="agressor"></p>
-                <h3>Você já se sentiu inseguro(a) ao usar a internet ou redes sociais?</h3>
-                <p id="inseguro"></p>
-                <h3>Você já bloqueou ou denunciou esses agressores?</h3>
+                <h3>Você já sofreu discriminação ou tratamento abusivo em algum serviço público ou privado?</h3>
+                <p id="discriminado"></p>
+                <h3>Em qual tipo de instituição isso ocorreu?</h3>
+                <p id="instituicao"></p>
+                <h3>Você foi negligenciado(a) ou teve direitos negados?</h3>
+                <p id="negligenciado"></p>
+                <h3>Você já fez uma denúncia sobre esse tratamento?</h3>
                 <p id="ja_denunciou"></p>
-                <h3>Você tem conhecimento de como se proteger melhor online?</h3>
-                <p id="protegido"></p>
+                <h3>Essas situações afetaram seu acesso a serviços ou direitos básicos?</h3>
+                <p id="afetou_acesso"></p>
+                <h3>Como você descreveria sua confiança nas instituições atualmente?</h3>
+                <p id="confianca"></p>
                 <h3>Data:</h3>
                 <p id="date"></p>
                 <h3>Horário:</h3>
@@ -117,7 +117,7 @@ $ajuda = $controller->listarAjudaDigital();
     </footer>
     
     <script src="../../../js/fade.js"></script>
-    <script src="../../../js/ajuda_digital.js"></script>
+    <script src="../../../js/ajuda_institucional.js"></script>
 
 </body>
 

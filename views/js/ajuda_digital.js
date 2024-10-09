@@ -5,7 +5,7 @@ const vitima = document.getElementById('vitima');
 const frequencia = document.getElementById('frequencia');
 const agressor = document.getElementById('agressor');
 const inseguro = document.getElementById('inseguro');
-const jaDenunciou = document.getElementById('jaDenunciou');
+const ja_denunciou = document.getElementById('ja_denunciou');
 const protegido = document.getElementById('protegido');
 const date = document.getElementById('date');
 const horario = document.getElementById('horario');
@@ -22,7 +22,7 @@ function abrirModalDigital(id_digital) {
             frequencia.textContent = data.frequencia;
             agressor.textContent = data.agressor;
             inseguro.textContent = data.inseguro;
-            jaDenunciou.textContent = data.ja_denunciou;
+            ja_denunciou.textContent = data.ja_denunciou;
             protegido.textContent = data.protegido;
             date.textContent = data.data;
             horario.textContent = data.horario;
