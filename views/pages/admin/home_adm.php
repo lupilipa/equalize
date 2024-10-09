@@ -34,11 +34,11 @@
         </div>
     </header>
     
-    <section>
+    <main>
         <a class="btn-menu" href="home_adm.php">Home</a></br>
         <a class="btn-menu" href="ajuda_adm.php">Ajuda: ADM</a></br>
         <a class="btn-menu" href="relatos_adm.php">Relatos: ADM</a></br>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">

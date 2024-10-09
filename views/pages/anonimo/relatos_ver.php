@@ -43,7 +43,7 @@ $relatos = $controller->listarRelatosDisp();
         </div>
     </header>
 
-    <section>
+    <main>
         <div class="titulo">
             <h1>Relatos</h1>
         </div>
@@ -66,7 +66,7 @@ $relatos = $controller->listarRelatosDisp();
                 </tbody>
             </table>
         </div>
-    </section>
+    </main>
 
     <footer>
         <div class="copyright">
